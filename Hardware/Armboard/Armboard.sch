@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title ""
 Date ""
 Rev ""
@@ -18,5 +18,11 @@ S 1050 1000 6950 4800
 U 5F5BEA2C
 F0 "Indicators" 50
 F1 "Armboard1.sch" 50
+$EndSheet
+$Sheet
+S 8150 1000 2250 1900
+U 5F67ABAC
+F0 "Power" 50
+F1 "Power.sch" 50
 $EndSheet
 $EndSCHEMATC
