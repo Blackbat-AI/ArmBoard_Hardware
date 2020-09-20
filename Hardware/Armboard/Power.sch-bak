@@ -159,9 +159,11 @@ $EndComp
 Text HLabel 9650 1400 0    79   Input ~ 0
 Capacitor_Train
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 5F67B2AF
 P 2100 2000
+AR Path="/5F67B2AF" Ref="Conn?"  Part="3" 
+AR Path="/5F67ABAC/5F67B2AF" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 2308 2387 60  0000 C CNN
 F 1 "AndersonPP" H 2308 2281 60  0000 C CNN
 F 2 "" H 1950 1450 60  0001 C CNN
@@ -170,9 +172,11 @@ F 3 "" H 1950 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 5F67B746
 P 2950 2000
+AR Path="/5F67B746" Ref="Conn?"  Part="2" 
+AR Path="/5F67ABAC/5F67B746" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 3158 2387 60  0000 C CNN
 F 1 "AndersonPP" H 3158 2281 60  0000 C CNN
 F 2 "" H 2800 1450 60  0001 C CNN
@@ -181,9 +185,11 @@ F 3 "" H 2800 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F67BE24
 P 3800 2000
+AR Path="/5F67BE24" Ref="Conn?"  Part="1" 
+AR Path="/5F67ABAC/5F67BE24" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4008 2387 60  0000 C CNN
 F 1 "AndersonPP" H 4008 2281 60  0000 C CNN
 F 2 "" H 3650 1450 60  0001 C CNN
@@ -192,9 +198,11 @@ F 3 "" H 3650 1450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 5F67E65A
 P 2100 2500
+AR Path="/5F67E65A" Ref="Conn?"  Part="3" 
+AR Path="/5F67ABAC/5F67E65A" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 2308 2887 60  0000 C CNN
 F 1 "AndersonPP" H 2308 2781 60  0000 C CNN
 F 2 "" H 1950 1950 60  0001 C CNN
@@ -203,9 +211,11 @@ F 3 "" H 1950 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 5F67E660
 P 2950 2500
+AR Path="/5F67E660" Ref="Conn?"  Part="2" 
+AR Path="/5F67ABAC/5F67E660" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 3158 2887 60  0000 C CNN
 F 1 "AndersonPP" H 3158 2781 60  0000 C CNN
 F 2 "" H 2800 1950 60  0001 C CNN
@@ -214,9 +224,11 @@ F 3 "" H 2800 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F67E666
 P 3800 2500
+AR Path="/5F67E666" Ref="Conn?"  Part="1" 
+AR Path="/5F67ABAC/5F67E666" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4008 2887 60  0000 C CNN
 F 1 "AndersonPP" H 4008 2781 60  0000 C CNN
 F 2 "" H 3650 1950 60  0001 C CNN
@@ -225,9 +237,11 @@ F 3 "" H 3650 1950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 5F67F13B
 P 2100 3000
+AR Path="/5F67F13B" Ref="Conn?"  Part="3" 
+AR Path="/5F67ABAC/5F67F13B" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 2308 3387 60  0000 C CNN
 F 1 "AndersonPP" H 2308 3281 60  0000 C CNN
 F 2 "" H 1950 2450 60  0001 C CNN
@@ -236,9 +250,11 @@ F 3 "" H 1950 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 5F67F141
 P 2950 3000
+AR Path="/5F67F141" Ref="Conn?"  Part="2" 
+AR Path="/5F67ABAC/5F67F141" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 3158 3387 60  0000 C CNN
 F 1 "AndersonPP" H 3158 3281 60  0000 C CNN
 F 2 "" H 2800 2450 60  0001 C CNN
@@ -247,9 +263,11 @@ F 3 "" H 2800 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F67F147
 P 3800 3000
+AR Path="/5F67F147" Ref="Conn?"  Part="1" 
+AR Path="/5F67ABAC/5F67F147" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4008 3387 60  0000 C CNN
 F 1 "AndersonPP" H 4008 3281 60  0000 C CNN
 F 2 "" H 3650 2450 60  0001 C CNN
@@ -258,9 +276,11 @@ F 3 "" H 3650 2450 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 3 1 5F67F9E7
 P 2100 3500
+AR Path="/5F67F9E7" Ref="Conn?"  Part="3" 
+AR Path="/5F67ABAC/5F67F9E7" Ref="Conn?"  Part="3" 
 F 0 "Conn?" H 2308 3887 60  0000 C CNN
 F 1 "AndersonPP" H 2308 3781 60  0000 C CNN
 F 2 "" H 1950 2950 60  0001 C CNN
@@ -269,9 +289,11 @@ F 3 "" H 1950 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 2 1 5F67F9ED
 P 2950 3500
+AR Path="/5F67F9ED" Ref="Conn?"  Part="2" 
+AR Path="/5F67ABAC/5F67F9ED" Ref="Conn?"  Part="2" 
 F 0 "Conn?" H 3158 3887 60  0000 C CNN
 F 1 "AndersonPP" H 3158 3781 60  0000 C CNN
 F 2 "" H 2800 2950 60  0001 C CNN
@@ -280,9 +302,11 @@ F 3 "" H 2800 2950 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:AndersonPP Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors Conn?
 U 1 1 5F67F9F3
 P 3800 3500
+AR Path="/5F67F9F3" Ref="Conn?"  Part="1" 
+AR Path="/5F67ABAC/5F67F9F3" Ref="Conn?"  Part="1" 
 F 0 "Conn?" H 4008 3887 60  0000 C CNN
 F 1 "AndersonPP" H 4008 3781 60  0000 C CNN
 F 2 "" H 3650 2950 60  0001 C CNN
@@ -358,4 +382,70 @@ Wire Wire Line
 Connection ~ 4200 3400
 Text HLabel 3750 1300 0    79   Input ~ 0
 Anderson_Connectors
+$Comp
+L power:+12L #PWR?
+U 1 1 5F67B836
+P 8500 2750
+F 0 "#PWR?" H 8500 2600 50  0001 C CNN
+F 1 "+12L" H 8515 2923 50  0000 C CNN
+F 2 "" H 8500 2750 50  0001 C CNN
+F 3 "" H 8500 2750 50  0001 C CNN
+	1    8500 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F67BC4F
+P 10000 2700
+F 0 "#PWR?" H 10000 2550 50  0001 C CNN
+F 1 "+3.3V" H 10015 2873 50  0000 C CNN
+F 2 "" H 10000 2700 50  0001 C CNN
+F 3 "" H 10000 2700 50  0001 C CNN
+	1    10000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67C9C2
+P 8500 3200
+F 0 "10uF" H 8615 3246 50  0000 L CNN
+F 1 "C6" H 8615 3155 50  0000 L CNN
+F 2 "" H 8538 3050 50  0001 C CNN
+F 3 "~" H 8500 3200 50  0001 C CNN
+	1    8500 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67D17F
+P 10000 3200
+F 0 "10uF" H 10115 3246 50  0000 L CNN
+F 1 "C7" H 10115 3155 50  0000 L CNN
+F 2 "" H 10038 3050 50  0001 C CNN
+F 3 "~" H 10000 3200 50  0001 C CNN
+	1    10000 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8500 2750 8500 3050
+Wire Wire Line
+	8500 3350 10000 3350
+Wire Wire Line
+	10000 3350 10250 3350
+Wire Wire Line
+	10250 3350 10250 3500
+Connection ~ 10000 3350
+Wire Wire Line
+	10000 2700 10000 3050
+$Comp
+L power:GND #PWR?
+U 1 1 5F6806AC
+P 10250 3500
+F 0 "#PWR?" H 10250 3250 50  0001 C CNN
+F 1 "GND" H 10255 3327 50  0000 C CNN
+F 2 "" H 10250 3500 50  0001 C CNN
+F 3 "" H 10250 3500 50  0001 C CNN
+	1    10250 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
