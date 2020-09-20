@@ -1,0 +1,161 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C .1uF
+U 1 1 5F67AED3
+P 8000 1850
+F 0 ".1uF" H 8115 1896 50  0000 L CNN
+F 1 "C1" H 8115 1805 50  0000 L CNN
+F 2 "" H 8038 1700 50  0001 C CNN
+F 3 "~" H 8000 1850 50  0001 C CNN
+	1    8000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67B379
+P 8400 1850
+F 0 "10uF" H 8515 1896 50  0000 L CNN
+F 1 "C2" H 8515 1805 50  0000 L CNN
+F 2 "" H 8438 1700 50  0001 C CNN
+F 3 "~" H 8400 1850 50  0001 C CNN
+	1    8400 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67B840
+P 8800 1850
+F 0 "10uF" H 8915 1896 50  0000 L CNN
+F 1 "C3" H 8915 1805 50  0000 L CNN
+F 2 "" H 8838 1700 50  0001 C CNN
+F 3 "~" H 8800 1850 50  0001 C CNN
+	1    8800 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67BE7A
+P 9200 1850
+F 0 "10uF" H 9315 1896 50  0000 L CNN
+F 1 "C4" H 9315 1805 50  0000 L CNN
+F 2 "" H 9238 1700 50  0001 C CNN
+F 3 "~" H 9200 1850 50  0001 C CNN
+	1    9200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C 10uF
+U 1 1 5F67C26D
+P 9600 1850
+F 0 "10uF" H 9715 1896 50  0000 L CNN
+F 1 "C5" H 9715 1805 50  0000 L CNN
+F 2 "" H 9638 1700 50  0001 C CNN
+F 3 "~" H 9600 1850 50  0001 C CNN
+	1    9600 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 47uF
+U 1 1 5F67C954
+P 10000 1850
+F 0 "47uF" H 10115 1896 50  0000 L CNN
+F 1 "CP1" H 10115 1805 50  0000 L CNN
+F 2 "" H 10000 1850 50  0001 C CNN
+F 3 "~" H 10000 1850 50  0001 C CNN
+	1    10000 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 47uF
+U 1 1 5F67D4A0
+P 10400 1850
+F 0 "47uF" H 10515 1896 50  0000 L CNN
+F 1 "CP2" H 10515 1805 50  0000 L CNN
+F 2 "" H 10400 1850 50  0001 C CNN
+F 3 "~" H 10400 1850 50  0001 C CNN
+	1    10400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 1600 7850 1700
+Wire Wire Line
+	7850 1700 8000 1700
+Connection ~ 8000 1700
+Wire Wire Line
+	8000 1700 8400 1700
+Connection ~ 8400 1700
+Wire Wire Line
+	8400 1700 8800 1700
+Connection ~ 8800 1700
+Wire Wire Line
+	8800 1700 9200 1700
+Connection ~ 9200 1700
+Wire Wire Line
+	9200 1700 9600 1700
+Connection ~ 9600 1700
+Wire Wire Line
+	9600 1700 10000 1700
+Connection ~ 10000 1700
+Wire Wire Line
+	10000 1700 10400 1700
+Wire Wire Line
+	8000 2000 8400 2000
+Wire Wire Line
+	10550 2000 10550 2150
+Connection ~ 8400 2000
+Wire Wire Line
+	8400 2000 8800 2000
+Connection ~ 8800 2000
+Wire Wire Line
+	8800 2000 9200 2000
+Connection ~ 9200 2000
+Wire Wire Line
+	9200 2000 9600 2000
+Connection ~ 9600 2000
+Wire Wire Line
+	9600 2000 10000 2000
+Connection ~ 10000 2000
+Wire Wire Line
+	10000 2000 10400 2000
+Connection ~ 10400 2000
+Wire Wire Line
+	10400 2000 10550 2000
+$Comp
+L power:GND #PWR?
+U 1 1 5F6806B4
+P 10550 2150
+F 0 "#PWR?" H 10550 1900 50  0001 C CNN
+F 1 "GND" H 10555 1977 50  0000 C CNN
+F 2 "" H 10550 2150 50  0001 C CNN
+F 3 "" H 10550 2150 50  0001 C CNN
+	1    10550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12VA #PWR?
+U 1 1 5F680B53
+P 7850 1600
+F 0 "#PWR?" H 7850 1450 50  0001 C CNN
+F 1 "+12VA" H 7865 1773 50  0000 C CNN
+F 2 "" H 7850 1600 50  0001 C CNN
+F 3 "" H 7850 1600 50  0001 C CNN
+	1    7850 1600
+	1    0    0    -1  
+$EndComp
+Text HLabel 9650 1400 0    79   Input ~ 0
+Capacitor_Train
+$EndSCHEMATC
