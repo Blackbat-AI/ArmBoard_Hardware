@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 3 8
 Title ""
 Date ""
 Rev ""
@@ -156,8 +156,6 @@ F 3 "" H 7030 3640 50  0001 C CNN
 	1    7030 3640
 	1    0    0    -1  
 $EndComp
-Text HLabel 8830 3440 0    79   Input ~ 0
-Capacitor_Train
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F67BC4F
@@ -391,6 +389,8 @@ Wire Wire Line
 	5800 3850 5800 3950
 Text Notes 5010 3790 2    50   ~ 0
 Green
-Text HLabel 2860 2930 2    79   Output ~ 0
-Buckman_Converter
+Text Notes 4280 2860 2    98   ~ 20
+Buckman Converter
+Text Notes 8950 3410 2    98   ~ 20
+Capacitor Train
 $EndSCHEMATC
