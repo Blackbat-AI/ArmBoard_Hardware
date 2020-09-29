@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Armboard-rescue_AndersonPP-MRDT_Connectors
+# Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue
 #
-DEF Armboard-rescue_AndersonPP-MRDT_Connectors Conn 0 0 N Y 5 L N
+DEF Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Armboard-rescue_AndersonPP-MRDT_Connectors" 100 250 60 H V C CNN
+F1 "Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -59,33 +59,134 @@ X ~ 2 0 -150 130 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# MRDT_Devices_OKI
+# Device_D_Zener
 #
-DEF MRDT_Devices_OKI U 0 40 Y Y 1 F N
-F0 "U" 50 -50 60 H I C CNN
-F1 "MRDT_Devices_OKI" 200 250 60 H V C CNN
-F2 "" -200 -100 60 H I C CNN
-F3 "" -200 -100 60 H I C CNN
+DEF Device_D_Zener D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Zener" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
 DRAW
-S 0 0 400 200 0 1 0 N
-X Vi 1 -200 100 200 R 50 50 1 1 I
-X GND 2 200 -200 200 U 50 50 1 1 O
-X Vo 3 600 100 200 L 50 50 1 1 O
+P 2 0 1 0 50 0 -50 0 N
+P 3 0 1 10 -50 -50 -50 50 -30 50 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# power_+12L
+# Device_L
 #
-DEF power_+12L #PWR 0 0 Y Y 1 F P
+DEF Device_L L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "Device_L" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_LED
+#
+DEF Device_LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_LED" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 10 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 10 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R
+#
+DEF Device_R R 0 0 N Y 1 F N
+F0 "R" 80 0 50 V V C CNN
+F1 "Device_R" 0 0 50 V V C CNN
+F2 "" -70 0 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -40 -100 40 100 0 1 10 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Test_Point
+#
+DEF MRDT_Connectors_Test_Point J 0 40 N N 1 F N
+F0 "J" 50 -50 60 H V C CNN
+F1 "MRDT_Connectors_Test_Point" 0 250 60 H V C CNN
+F2 "" 0 -50 60 H I C CNN
+F3 "" 0 -50 60 H I C CNN
+DRAW
+C 0 150 50 0 1 0 F
+X ~ 1 0 0 100 U 59 59 1 0 U
+ENDDRAW
+ENDDEF
+#
+# MRDT_Devices_LM2576D2TR4
+#
+DEF MRDT_Devices_LM2576D2TR4 U 0 40 Y Y 1 F N
+F0 "U" 0 450 50 H V C CNN
+F1 "MRDT_Devices_LM2576D2TR4" 0 350 50 H V C CNN
+F2 "" 0 450 50 H I C CNN
+F3 "" 0 450 50 H I C CNN
+DRAW
+S -400 250 400 -150 0 1 0 N
+X VIN 1 500 200 100 L 50 50 1 1 I
+X OUTPUT 2 500 50 100 L 50 50 1 1 O
+X GND 3 -500 200 100 R 50 50 1 1 I
+X FEEDBACK 4 500 -100 100 L 50 50 1 1 O
+X ON/OFF 5 -500 50 100 R 50 50 1 1 I
+X TAB 6 -500 -100 100 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# power_+12V
+#
+DEF power_+12V #PWR 0 0 Y Y 1 F P
 F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+12L" 0 140 50 H V C CNN
+F1 "power_+12V" 0 140 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
-X +12L 1 0 0 0 U 50 50 1 1 W N
+X +12V 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
