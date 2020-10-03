@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
-Sheet 1 9
+Sheet 6 9
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,98 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_02 Conn?
+U 1 1 5F79C943
+P 5850 3250
+F 0 "Conn?" H 5978 3408 60  0000 L CNN
+F 1 "Molex_SL_02" H 5978 3302 60  0000 L CNN
+F 2 "" H 5850 3150 60  0001 C CNN
+F 3 "" H 5850 3150 60  0001 C CNN
+	1    5850 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 5F79C949
+P 5300 2850
+AR Path="/5F73890D/5F79C949" Ref="#PWR?"  Part="1" 
+AR Path="/5F738767/5F79C949" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5300 2700 50  0001 C CNN
+F 1 "+12V" H 5315 3023 50  0000 C CNN
+F 2 "" H 5300 2850 50  0001 C CNN
+F 3 "" H 5300 2850 50  0001 C CNN
+	1    5300 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F79C94F
+P 5300 4850
+F 0 "#PWR?" H 5300 4600 50  0001 C CNN
+F 1 "GND" H 5305 4677 50  0000 C CNN
+F 2 "" H 5300 4850 50  0001 C CNN
+F 3 "" H 5300 4850 50  0001 C CNN
+	1    5300 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GSD Q?
+U 1 1 5F79C957
+P 5200 4400
+F 0 "Q?" H 5404 4446 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 5404 4355 50  0000 L CNN
+F 2 "" H 5400 4500 50  0001 C CNN
+F 3 "~" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 4850 5300 4600
+$Comp
+L Device:R R?
+U 1 1 5F79C95E
+P 5300 3450
+AR Path="/5F73890D/5F79C95E" Ref="R?"  Part="1" 
+AR Path="/5F738767/5F79C95E" Ref="R?"  Part="1" 
+F 0 "R?" H 5370 3496 50  0000 L CNN
+F 1 "1.5k" H 5370 3405 50  0000 L CNN
+F 2 "" V 5230 3450 50  0001 C CNN
+F 3 "~" H 5300 3450 50  0001 C CNN
+	1    5300 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F79C964
+P 5300 3900
+F 0 "D?" V 5339 3782 50  0000 R CNN
+F 1 "LED" V 5248 3782 50  0000 R CNN
+F 2 "" H 5300 3900 50  0001 C CNN
+F 3 "~" H 5300 3900 50  0001 C CNN
+	1    5300 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3750 5300 3600
+Wire Wire Line
+	5300 4200 5300 4150
+Wire Wire Line
+	5650 3200 5600 3200
+Wire Wire Line
+	5650 3100 5300 3100
+Wire Wire Line
+	5300 3100 5300 3300
+Wire Wire Line
+	5600 3200 5600 4150
+Wire Wire Line
+	5600 4150 5300 4150
+Connection ~ 5300 4150
+Wire Wire Line
+	5300 4150 5300 4050
+Wire Wire Line
+	5300 3100 5300 2850
+Connection ~ 5300 3100
+Text Notes 4950 3950 0    50   ~ 0
+Orange
 $EndSCHEMATC

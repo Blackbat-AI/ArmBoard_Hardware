@@ -1,9 +1,9 @@
 EESchema Schematic File Version 4
 EELAYER 30 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr A 11000 8500
 encoding utf-8
-Sheet 1 9
+Sheet 5 9
 Title ""
 Date ""
 Rev ""
@@ -13,4 +13,250 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F78DE1F
+P 3750 3090
+F 0 "Conn?" H 3878 3298 60  0000 L CNN
+F 1 "Molex_SL_03" H 3878 3192 60  0000 L CNN
+F 2 "" H 3750 3090 60  0001 C CNN
+F 3 "" H 3750 3090 60  0001 C CNN
+	1    3750 3090
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F78E262
+P 3340 2710
+F 0 "#PWR?" H 3340 2560 50  0001 C CNN
+F 1 "+3.3V" H 3355 2883 50  0000 C CNN
+F 2 "" H 3340 2710 50  0001 C CNN
+F 3 "" H 3340 2710 50  0001 C CNN
+	1    3340 2710
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 2840 3340 2840
+Wire Wire Line
+	3340 2840 3340 2710
+$Comp
+L power:GND #PWR?
+U 1 1 5F78E770
+P 3250 2940
+F 0 "#PWR?" H 3250 2690 50  0001 C CNN
+F 1 "GND" H 3255 2767 50  0000 C CNN
+F 2 "" H 3250 2940 50  0001 C CNN
+F 3 "" H 3250 2940 50  0001 C CNN
+	1    3250 2940
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3550 2940 3250 2940
+Text Notes 3730 2680 0    59   ~ 0
+Enc_1
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F78F4A7
+P 3790 4120
+F 0 "Conn?" H 3918 4328 60  0000 L CNN
+F 1 "Molex_SL_03" H 3918 4222 60  0000 L CNN
+F 2 "" H 3790 4120 60  0001 C CNN
+F 3 "" H 3790 4120 60  0001 C CNN
+	1    3790 4120
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F78F4AD
+P 3380 3740
+F 0 "#PWR?" H 3380 3590 50  0001 C CNN
+F 1 "+3.3V" H 3395 3913 50  0000 C CNN
+F 2 "" H 3380 3740 50  0001 C CNN
+F 3 "" H 3380 3740 50  0001 C CNN
+	1    3380 3740
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3590 3870 3380 3870
+Wire Wire Line
+	3380 3870 3380 3740
+$Comp
+L power:GND #PWR?
+U 1 1 5F78F4B5
+P 3290 3970
+F 0 "#PWR?" H 3290 3720 50  0001 C CNN
+F 1 "GND" H 3295 3797 50  0000 C CNN
+F 2 "" H 3290 3970 50  0001 C CNN
+F 3 "" H 3290 3970 50  0001 C CNN
+	1    3290 3970
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3590 3970 3290 3970
+Text Notes 3770 3710 0    59   ~ 0
+Enc_2
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F78F9EB
+P 3800 5180
+F 0 "Conn?" H 3928 5388 60  0000 L CNN
+F 1 "Molex_SL_03" H 3928 5282 60  0000 L CNN
+F 2 "" H 3800 5180 60  0001 C CNN
+F 3 "" H 3800 5180 60  0001 C CNN
+	1    3800 5180
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F78F9F1
+P 3390 4800
+F 0 "#PWR?" H 3390 4650 50  0001 C CNN
+F 1 "+3.3V" H 3405 4973 50  0000 C CNN
+F 2 "" H 3390 4800 50  0001 C CNN
+F 3 "" H 3390 4800 50  0001 C CNN
+	1    3390 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4930 3390 4930
+Wire Wire Line
+	3390 4930 3390 4800
+$Comp
+L power:GND #PWR?
+U 1 1 5F78F9F9
+P 3300 5030
+F 0 "#PWR?" H 3300 4780 50  0001 C CNN
+F 1 "GND" H 3305 4857 50  0000 C CNN
+F 2 "" H 3300 5030 50  0001 C CNN
+F 3 "" H 3300 5030 50  0001 C CNN
+	1    3300 5030
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3600 5030 3300 5030
+Text Notes 3780 4770 0    59   ~ 0
+Enc_3
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F793695
+P 6700 3080
+F 0 "Conn?" H 6828 3288 60  0000 L CNN
+F 1 "Molex_SL_03" H 6828 3182 60  0000 L CNN
+F 2 "" H 6700 3080 60  0001 C CNN
+F 3 "" H 6700 3080 60  0001 C CNN
+	1    6700 3080
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F79369B
+P 6290 2700
+F 0 "#PWR?" H 6290 2550 50  0001 C CNN
+F 1 "+3.3V" H 6305 2873 50  0000 C CNN
+F 2 "" H 6290 2700 50  0001 C CNN
+F 3 "" H 6290 2700 50  0001 C CNN
+	1    6290 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 2830 6290 2830
+Wire Wire Line
+	6290 2830 6290 2700
+$Comp
+L power:GND #PWR?
+U 1 1 5F7936A3
+P 6200 2930
+F 0 "#PWR?" H 6200 2680 50  0001 C CNN
+F 1 "GND" H 6205 2757 50  0000 C CNN
+F 2 "" H 6200 2930 50  0001 C CNN
+F 3 "" H 6200 2930 50  0001 C CNN
+	1    6200 2930
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2930 6200 2930
+Text Notes 6680 2670 0    59   ~ 0
+Enc_4
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F7936AB
+P 6740 4110
+F 0 "Conn?" H 6868 4318 60  0000 L CNN
+F 1 "Molex_SL_03" H 6868 4212 60  0000 L CNN
+F 2 "" H 6740 4110 60  0001 C CNN
+F 3 "" H 6740 4110 60  0001 C CNN
+	1    6740 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F7936B1
+P 6330 3730
+F 0 "#PWR?" H 6330 3580 50  0001 C CNN
+F 1 "+3.3V" H 6345 3903 50  0000 C CNN
+F 2 "" H 6330 3730 50  0001 C CNN
+F 3 "" H 6330 3730 50  0001 C CNN
+	1    6330 3730
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6540 3860 6330 3860
+Wire Wire Line
+	6330 3860 6330 3730
+$Comp
+L power:GND #PWR?
+U 1 1 5F7936B9
+P 6240 3960
+F 0 "#PWR?" H 6240 3710 50  0001 C CNN
+F 1 "GND" H 6245 3787 50  0000 C CNN
+F 2 "" H 6240 3960 50  0001 C CNN
+F 3 "" H 6240 3960 50  0001 C CNN
+	1    6240 3960
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6540 3960 6240 3960
+Text Notes 6720 3700 0    59   ~ 0
+Enc_5
+$Comp
+L MRDT_Connectors:Molex_SL_03 Conn?
+U 1 1 5F7936C1
+P 6750 5170
+F 0 "Conn?" H 6878 5378 60  0000 L CNN
+F 1 "Molex_SL_03" H 6878 5272 60  0000 L CNN
+F 2 "" H 6750 5170 60  0001 C CNN
+F 3 "" H 6750 5170 60  0001 C CNN
+	1    6750 5170
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F7936C7
+P 6340 4790
+F 0 "#PWR?" H 6340 4640 50  0001 C CNN
+F 1 "+3.3V" H 6355 4963 50  0000 C CNN
+F 2 "" H 6340 4790 50  0001 C CNN
+F 3 "" H 6340 4790 50  0001 C CNN
+	1    6340 4790
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6550 4920 6340 4920
+Wire Wire Line
+	6340 4920 6340 4790
+$Comp
+L power:GND #PWR?
+U 1 1 5F7936CF
+P 6250 5020
+F 0 "#PWR?" H 6250 4770 50  0001 C CNN
+F 1 "GND" H 6255 4847 50  0000 C CNN
+F 2 "" H 6250 5020 50  0001 C CNN
+F 3 "" H 6250 5020 50  0001 C CNN
+	1    6250 5020
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6550 5020 6250 5020
+Text Notes 6730 4760 0    59   ~ 0
+Enc_6
 $EndSCHEMATC
