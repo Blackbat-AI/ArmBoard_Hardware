@@ -20,7 +20,7 @@ F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F73C0FD
 P 1140 1360
 AR Path="/5F73C0FD" Ref="Conn?"  Part="3" 
@@ -33,7 +33,7 @@ F 3 "" H 990 810 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 1 1 5F73C109
 P 1140 2660
 AR Path="/5F73C109" Ref="Conn?"  Part="1" 
@@ -46,7 +46,7 @@ F 3 "" H 990 2110 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F73C10F
 P 1740 1360
 AR Path="/5F73C10F" Ref="Conn?"  Part="3" 
@@ -59,7 +59,7 @@ F 3 "" H 1590 810 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 1 1 5F73C11B
 P 1740 2660
 AR Path="/5F73C11B" Ref="Conn?"  Part="1" 
@@ -72,7 +72,7 @@ F 3 "" H 1590 2110 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F73C121
 P 2340 1360
 AR Path="/5F73C121" Ref="Conn?"  Part="3" 
@@ -85,7 +85,7 @@ F 3 "" H 2190 810 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 1 1 5F73C12D
 P 2340 2660
 AR Path="/5F73C12D" Ref="Conn?"  Part="1" 
@@ -98,7 +98,7 @@ F 3 "" H 2190 2110 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F73C133
 P 2940 1360
 AR Path="/5F73C133" Ref="Conn?"  Part="3" 
@@ -111,7 +111,7 @@ F 3 "" H 2790 810 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 1 1 5F73C13F
 P 2940 2660
 AR Path="/5F73C13F" Ref="Conn?"  Part="1" 
@@ -152,7 +152,7 @@ $EndComp
 Text HLabel 2840 810  0    79   Input ~ 0
 Anderson_Connectors
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F742E9A
 P 1140 2010
 AR Path="/5F742E9A" Ref="Conn?"  Part="3" 
@@ -165,7 +165,7 @@ F 3 "" H 990 1460 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F742EA0
 P 1740 2010
 AR Path="/5F742EA0" Ref="Conn?"  Part="3" 
@@ -178,7 +178,7 @@ F 3 "" H 1590 1460 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F742EA6
 P 2340 2010
 AR Path="/5F742EA6" Ref="Conn?"  Part="3" 
@@ -191,7 +191,7 @@ F 3 "" H 2190 1460 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue Conn?
+L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F742EAC
 P 2940 2010
 AR Path="/5F742EAC" Ref="Conn?"  Part="3" 

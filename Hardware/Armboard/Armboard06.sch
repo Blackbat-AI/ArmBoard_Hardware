@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L Armboard-rescue:Molex_SL_02-MRDT_Connectors Conn?
 U 1 1 5F795BD7
 P 5950 3100
 F 0 "Conn?" H 6078 3258 60  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 5950 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Connectors:Molex_SL_02 Conn?
+L Armboard-rescue:Molex_SL_02-MRDT_Connectors Conn?
 U 1 1 5F795EEA
 P 5950 3500
 F 0 "Conn?" H 6078 3658 60  0000 L CNN

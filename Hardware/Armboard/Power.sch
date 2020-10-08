@@ -168,7 +168,7 @@ F 3 "" H 4200 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MRDT_Devices:LM2576D2TR4 U?
+L Armboard-rescue:LM2576D2TR4-MRDT_Devices U?
 U 1 1 5F74DE4A
 P 2100 3900
 F 0 "U?" H 2100 4325 50  0000 C CNN
@@ -325,7 +325,7 @@ $EndComp
 Wire Wire Line
 	3800 4250 3800 4200
 $Comp
-L MRDT_Connectors:Test_Point J?
+L Armboard-rescue:Test_Point-MRDT_Connectors J?
 U 1 1 5F75C39D
 P 4550 3950
 F 0 "J?" H 4472 3989 60  0000 R CNN

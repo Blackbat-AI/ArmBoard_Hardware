@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F78DE1F
 P 3750 3090
 F 0 "Conn?" H 3878 3298 60  0000 L CNN
@@ -55,7 +55,7 @@ Wire Wire Line
 Text Notes 3730 2680 0    59   ~ 0
 Enc_1
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F78F4A7
 P 3790 4120
 F 0 "Conn?" H 3918 4328 60  0000 L CNN
@@ -96,7 +96,7 @@ Wire Wire Line
 Text Notes 3770 3710 0    59   ~ 0
 Enc_2
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F78F9EB
 P 3800 5180
 F 0 "Conn?" H 3928 5388 60  0000 L CNN
@@ -137,7 +137,7 @@ Wire Wire Line
 Text Notes 3780 4770 0    59   ~ 0
 Enc_3
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F793695
 P 6700 3080
 F 0 "Conn?" H 6828 3288 60  0000 L CNN
@@ -178,7 +178,7 @@ Wire Wire Line
 Text Notes 6680 2670 0    59   ~ 0
 Enc_4
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F7936AB
 P 6740 4110
 F 0 "Conn?" H 6868 4318 60  0000 L CNN
@@ -219,7 +219,7 @@ Wire Wire Line
 Text Notes 6720 3700 0    59   ~ 0
 Enc_5
 $Comp
-L MRDT_Connectors:Molex_SL_03 Conn?
+L Armboard-rescue:Molex_SL_03-MRDT_Connectors Conn?
 U 1 1 5F7936C1
 P 6750 5170
 F 0 "Conn?" H 6878 5378 60  0000 L CNN
