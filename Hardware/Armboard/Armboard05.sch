@@ -16,25 +16,25 @@ $EndDescr
 $Comp
 L Armboard-rescue:Molex_SL_02-MRDT_Connectors-Armboard-rescue Conn?
 U 1 1 5F79C943
-P 5850 3250
-F 0 "Conn?" H 5978 3408 60  0000 L CNN
-F 1 "Molex_SL_02" H 5978 3302 60  0000 L CNN
-F 2 "" H 5850 3150 60  0001 C CNN
-F 3 "" H 5850 3150 60  0001 C CNN
-	1    5850 3250
+P 5850 2750
+F 0 "Conn?" H 5978 2908 60  0000 L CNN
+F 1 "Molex_SL_02" H 5978 2802 60  0000 L CNN
+F 2 "" H 5850 2650 60  0001 C CNN
+F 3 "" H 5850 2650 60  0001 C CNN
+	1    5850 2750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR?
 U 1 1 5F79C949
-P 5300 2850
+P 5300 2350
 AR Path="/5F73890D/5F79C949" Ref="#PWR?"  Part="1" 
 AR Path="/5F738767/5F79C949" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 2700 50  0001 C CNN
-F 1 "+12V" H 5315 3023 50  0000 C CNN
-F 2 "" H 5300 2850 50  0001 C CNN
-F 3 "" H 5300 2850 50  0001 C CNN
-	1    5300 2850
+F 0 "#PWR?" H 5300 2200 50  0001 C CNN
+F 1 "+12V" H 5315 2523 50  0000 C CNN
+F 2 "" H 5300 2350 50  0001 C CNN
+F 3 "" H 5300 2350 50  0001 C CNN
+	1    5300 2350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -90,21 +90,19 @@ Wire Wire Line
 Wire Wire Line
 	5300 4200 5300 4150
 Wire Wire Line
-	5650 3200 5600 3200
+	5650 2700 5600 2700
 Wire Wire Line
-	5650 3100 5300 3100
+	5650 2600 5300 2600
 Wire Wire Line
-	5300 3100 5300 3300
-Wire Wire Line
-	5600 3200 5600 4150
+	5300 2600 5300 2800
 Wire Wire Line
 	5600 4150 5300 4150
 Connection ~ 5300 4150
 Wire Wire Line
 	5300 4150 5300 4050
 Wire Wire Line
-	5300 3100 5300 2850
-Connection ~ 5300 3100
+	5300 2600 5300 2350
+Connection ~ 5300 2600
 Text Notes 4950 3950 0    50   ~ 0
 Orange
 Text GLabel 4500 4400 0    50   Input ~ 0
@@ -159,4 +157,19 @@ Wire Wire Line
 	4750 5350 4750 5250
 Text Notes 6500 7150 0    157  ~ 31
 Solenoid Actuation
+$Comp
+L Switch:SW_Push SW?
+U 1 1 5F84F95E
+P 5300 3000
+F 0 "SW?" V 5340 3280 50  0000 R CNN
+F 1 "SW_Push" V 5260 3460 50  0000 R CNN
+F 2 "" H 5300 3200 50  0001 C CNN
+F 3 "~" H 5300 3200 50  0001 C CNN
+	1    5300 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5300 3200 5300 3300
+Wire Wire Line
+	5600 2700 5600 4150
 $EndSCHEMATC

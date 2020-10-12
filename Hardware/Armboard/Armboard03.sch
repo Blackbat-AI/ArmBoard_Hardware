@@ -101,4 +101,165 @@ F 3 "" H 6920 5520 60  0001 C CNN
 	8    6920 5520
 	-1   0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F83BEC8
+P 4800 2600
+F 0 "#PWR?" H 4800 2350 50  0001 C CNN
+F 1 "GND" H 4805 2427 50  0000 C CNN
+F 2 "" H 4800 2600 50  0001 C CNN
+F 3 "" H 4800 2600 50  0001 C CNN
+	1    4800 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2550 4510 2550
+Wire Wire Line
+	4800 2550 4800 2600
+Connection ~ 4510 2550
+Wire Wire Line
+	4510 2550 4800 2550
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F83D247
+P 3400 2450
+F 0 "#PWR?" H 3400 2300 50  0001 C CNN
+F 1 "+3.3V" V 3415 2578 50  0000 L CNN
+F 2 "" H 3400 2450 50  0001 C CNN
+F 3 "" H 3400 2450 50  0001 C CNN
+	1    3400 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 2450 3610 2450
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F83FA68
+P 5990 2440
+F 0 "#PWR?" H 5990 2290 50  0001 C CNN
+F 1 "+3.3V" V 6005 2568 50  0000 L CNN
+F 2 "" H 5990 2440 50  0001 C CNN
+F 3 "" H 5990 2440 50  0001 C CNN
+	1    5990 2440
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5990 2440 6200 2440
+$Comp
+L power:GND #PWR?
+U 1 1 5F83FD93
+P 7390 2560
+F 0 "#PWR?" H 7390 2310 50  0001 C CNN
+F 1 "GND" H 7395 2387 50  0000 C CNN
+F 2 "" H 7390 2560 50  0001 C CNN
+F 3 "" H 7390 2560 50  0001 C CNN
+	1    7390 2560
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F83FFBB
+P 4790 4620
+F 0 "#PWR?" H 4790 4370 50  0001 C CNN
+F 1 "GND" H 4795 4447 50  0000 C CNN
+F 2 "" H 4790 4620 50  0001 C CNN
+F 3 "" H 4790 4620 50  0001 C CNN
+	1    4790 4620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4790 4570 4790 4620
+Wire Wire Line
+	4500 4570 4790 4570
+$Comp
+L power:GND #PWR?
+U 1 1 5F8401EF
+P 7410 4620
+F 0 "#PWR?" H 7410 4370 50  0001 C CNN
+F 1 "GND" H 7415 4447 50  0000 C CNN
+F 2 "" H 7410 4620 50  0001 C CNN
+F 3 "" H 7410 4620 50  0001 C CNN
+	1    7410 4620
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7410 4570 7410 4620
+Wire Wire Line
+	7120 4570 7410 4570
+Text GLabel 3530 4570 0    50   Input ~ 0
+Enc_1_PWM
+Wire Wire Line
+	3600 4570 3530 4570
+Text GLabel 3530 4670 0    50   Input ~ 0
+Enc_2_PWM
+Wire Wire Line
+	3600 4670 3530 4670
+Text GLabel 3530 4770 0    50   Input ~ 0
+Enc_3_PWM
+Wire Wire Line
+	3600 4770 3530 4770
+Text GLabel 3530 4870 0    50   Input ~ 0
+Enc_4_PWM
+Wire Wire Line
+	3600 4870 3530 4870
+Text GLabel 6150 4570 0    50   Input ~ 0
+Enc_5_PWM
+Wire Wire Line
+	6220 4570 6150 4570
+Text GLabel 6150 4670 0    50   Input ~ 0
+Enc_6_PWM
+Wire Wire Line
+	6220 4670 6150 4670
+Text GLabel 7170 3340 2    50   Input ~ 0
+LS_2
+Wire Wire Line
+	7100 3340 7170 3340
+Text GLabel 7170 3240 2    50   Input ~ 0
+LS_1
+Wire Wire Line
+	7100 3240 7170 3240
+Text GLabel 3540 3250 0    50   Input ~ 0
+LS_3
+Wire Wire Line
+	3610 3250 3540 3250
+Text GLabel 3540 3350 0    50   Input ~ 0
+LS_4
+Wire Wire Line
+	3610 3350 3540 3350
+Text GLabel 6150 5170 0    50   Input ~ 0
+Laser_Control
+Wire Wire Line
+	6220 5170 6150 5170
+Text GLabel 6150 5270 0    50   Input ~ 0
+Solenoid_Actuation
+Wire Wire Line
+	6220 5270 6150 5270
+Text GLabel 3540 2650 0    50   Input ~ 0
+Rx_1_Tiva
+Wire Wire Line
+	3610 2650 3540 2650
+Text GLabel 3540 2750 0    50   Input ~ 0
+Tx_1_Tiva
+Wire Wire Line
+	3610 2750 3540 2750
+Text GLabel 7170 2940 2    50   Input ~ 0
+Tx_2_Tiva
+Wire Wire Line
+	7100 2940 7170 2940
+Text GLabel 7170 2840 2    50   Input ~ 0
+Rx_2_Tiva
+Wire Wire Line
+	7100 2840 7170 2840
+Wire Wire Line
+	7100 2540 7390 2540
+Wire Wire Line
+	7390 2540 7390 2560
+Text GLabel 6130 2640 0    50   Input ~ 0
+Rx_3_Tiva
+Wire Wire Line
+	6200 2640 6130 2640
+Text GLabel 6130 2740 0    50   Input ~ 0
+Tx_3_Tiva
+Wire Wire Line
+	6200 2740 6130 2740
 $EndSCHEMATC
