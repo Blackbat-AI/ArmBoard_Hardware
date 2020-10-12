@@ -62,8 +62,6 @@ Wire Wire Line
 Connection ~ 6100 2350
 Wire Wire Line
 	6100 2350 6100 2450
-Wire Wire Line
-	6100 2150 6650 2150
 Connection ~ 6100 2150
 Wire Wire Line
 	6100 2550 6100 2650
@@ -73,9 +71,6 @@ Wire Wire Line
 Connection ~ 6100 2750
 Wire Wire Line
 	6100 2750 6100 2850
-Wire Wire Line
-	6100 2850 6750 2850
-Connection ~ 6100 2850
 Wire Wire Line
 	6100 2950 6100 3050
 Connection ~ 6100 3050
@@ -100,42 +95,6 @@ F 3 "" H 6250 3150 50  0001 C CNN
 	1    6250 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 6650 2000 1    50   Input ~ 0
-Out_A_M
-Wire Wire Line
-	6650 2000 6650 2150
-Connection ~ 6650 2150
-Wire Wire Line
-	6650 2150 7250 2150
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 2 1 5F7FDECE
-P 7650 2250
-F 0 "Conn?" H 7622 2403 60  0000 R CNN
-F 1 "AndersonPP" H 7622 2297 60  0000 R CNN
-F 2 "" H 7500 1700 60  0001 C CNN
-F 3 "" H 7500 1700 60  0001 C CNN
-	2    7650 2250
-	-1   0    0    -1  
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 1 1 5F7FEB3C
-P 7600 2950
-F 0 "Conn?" H 7572 3103 60  0000 R CNN
-F 1 "AndersonPP" H 7572 2997 60  0000 R CNN
-F 2 "" H 7450 2400 60  0001 C CNN
-F 3 "" H 7450 2400 60  0001 C CNN
-	1    7600 2950
-	-1   0    0    -1  
-$EndComp
-Text GLabel 6750 2950 3    50   Input ~ 0
-Out_B_M
-Wire Wire Line
-	6750 2950 6750 2850
-Connection ~ 6750 2850
-Wire Wire Line
-	6750 2850 7200 2850
 Wire Wire Line
 	4500 2800 4300 2800
 Wire Wire Line
@@ -214,10 +173,6 @@ F 3 "" H 4000 3000 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4300 3100 4500 3100
-Text GLabel 3850 3100 0    50   Input ~ 0
-M_PWM
-Text GLabel 4000 2800 0    50   Input ~ 0
-IN_A
 $Comp
 L Device:R R5
 U 1 1 5F809806
@@ -283,17 +238,6 @@ Wire Wire Line
 Wire Wire Line
 	2650 3600 2650 3550
 Connection ~ 2800 3600
-$Comp
-L Device:D_Zener D1
-U 1 1 5F80F516
-P 2650 3400
-F 0 "D1" V 2600 3150 50  0000 L CNN
-F 1 "Zener" V 2700 3100 50  0000 L CNN
-F 2 "" H 2650 3400 50  0001 C CNN
-F 3 "~" H 2650 3400 50  0001 C CNN
-	1    2650 3400
-	0    1    1    0   
-$EndComp
 Text GLabel 2300 3200 0    50   Output ~ 0
 I_SENSE
 Wire Wire Line
@@ -337,12 +281,36 @@ F 3 "" H 4000 3300 50  0001 C CNN
 	1    4000 3300
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3900 3400 0    50   Input ~ 0
-IN_A
 Wire Wire Line
 	3500 3200 4500 3200
+$Comp
+L Device:D_Schottky D_Schottky
+U 1 1 5F84D0E8
+P 2650 3400
+F 0 "D_Schottky" V 2600 2900 50  0000 L CNN
+F 1 "D1" V 2700 3050 50  0000 L CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "~" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6100 2150 7250 2150
+Connection ~ 6100 2850
+Wire Wire Line
+	6100 2850 7200 2850
 Wire Wire Line
 	3850 3100 4000 3100
 Wire Wire Line
 	4000 3400 3900 3400
+Text GLabel 3900 3400 0    50   Input ~ 0
+IN_A
+Text GLabel 4000 2800 0    50   Input ~ 0
+IN_A
+Text GLabel 3850 3100 0    50   Input ~ 0
+M_PWM
+Text HLabel 7250 2150 2    50   Input ~ 0
+Gripper1
+Text HLabel 7200 2850 2    50   Input ~ 0
+Gripper2
 $EndSCHEMATC

@@ -86,7 +86,7 @@ Wire Wire Line
 Wire Wire Line
 	4900 1920 4900 1120
 $Sheet
-S 6860 1180 2760 2160
+S 6110 980  2760 2160
 U 5F7381FC
 F0 "H-Bridge" 50
 F1 "Armboard02.sch" 50
@@ -131,4 +131,130 @@ Text Notes 6530 7160 0    138  ~ 28
 Armboard Rev1
 Text Notes 1700 1370 0    79   ~ 16
 Input Andersons
+Text HLabel 8900 1250 0    50   Input ~ 0
+Gripper1
+Wire Wire Line
+	8900 1250 8950 1250
+Wire Wire Line
+	8950 1450 9000 1450
+$Comp
+L Device:R_Small R9
+U 1 1 5F8623A9
+P 9100 1450
+F 0 "R9" V 9300 1450 50  0000 C CNN
+F 1 "1.2k" V 9200 1450 50  0000 C CNN
+F 2 "" H 9100 1450 50  0001 C CNN
+F 3 "~" H 9100 1450 50  0001 C CNN
+	1    9100 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 5F862E5D
+P 9400 1450
+F 0 "D2" H 9393 1287 50  0000 C CNN
+F 1 "LED" H 9393 1196 50  0000 C CNN
+F 2 "" H 9400 1450 50  0001 C CNN
+F 3 "~" H 9400 1450 50  0001 C CNN
+	1    9400 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1450 9200 1450
+Wire Wire Line
+	9550 1450 9650 1450
+$Comp
+L power:GND #PWR?
+U 1 1 5F863B11
+P 9650 1650
+F 0 "#PWR?" H 9650 1400 50  0001 C CNN
+F 1 "GND" H 9655 1477 50  0000 C CNN
+F 2 "" H 9650 1650 50  0001 C CNN
+F 3 "" H 9650 1650 50  0001 C CNN
+	1    9650 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F864024
+P 10000 1350
+F 0 "Conn?" H 10300 1750 60  0000 R CNN
+F 1 "AndersonPP" H 10400 1650 60  0000 R CNN
+F 2 "" H 9850 800 60  0001 C CNN
+F 3 "" H 9850 800 60  0001 C CNN
+	2    10000 1350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 1250 8950 1450
+Wire Wire Line
+	8950 1250 9600 1250
+Connection ~ 8950 1250
+Wire Wire Line
+	9650 1450 9650 1650
+Wire Wire Line
+	9000 2600 9050 2600
+$Comp
+L Device:R_Small R10
+U 1 1 5F8695AA
+P 9150 2600
+F 0 "R10" V 9350 2600 50  0000 C CNN
+F 1 "1.2k" V 9250 2600 50  0000 C CNN
+F 2 "" H 9150 2600 50  0001 C CNN
+F 3 "~" H 9150 2600 50  0001 C CNN
+	1    9150 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:LED D3
+U 1 1 5F8695B0
+P 9450 2600
+F 0 "D3" H 9450 2500 50  0000 C CNN
+F 1 "LED" H 9450 2400 50  0000 C CNN
+F 2 "" H 9450 2600 50  0001 C CNN
+F 3 "~" H 9450 2600 50  0001 C CNN
+	1    9450 2600
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9300 2600 9250 2600
+Wire Wire Line
+	9600 2600 9700 2600
+$Comp
+L power:GND #PWR?
+U 1 1 5F8695B8
+P 9700 2800
+F 0 "#PWR?" H 9700 2550 50  0001 C CNN
+F 1 "GND" H 9705 2627 50  0000 C CNN
+F 2 "" H 9700 2800 50  0001 C CNN
+F 3 "" H 9700 2800 50  0001 C CNN
+	1    9700 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5F8695BE
+P 10050 2500
+F 0 "Conn?" H 10350 2900 60  0000 R CNN
+F 1 "AndersonPP" H 10450 2800 60  0000 R CNN
+F 2 "" H 9900 1950 60  0001 C CNN
+F 3 "" H 9900 1950 60  0001 C CNN
+	2    10050 2500
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 2400 9000 2600
+Wire Wire Line
+	9000 2400 9650 2400
+Connection ~ 9000 2400
+Wire Wire Line
+	9700 2600 9700 2800
+Text HLabel 8900 2400 0    50   Input ~ 0
+Gripper2
+Wire Wire Line
+	8900 2400 9000 2400
+Text Notes 9300 1400 0    50   ~ 0
+Green
+Text Notes 9350 2550 0    50   ~ 0
+Green
 $EndSCHEMATC
