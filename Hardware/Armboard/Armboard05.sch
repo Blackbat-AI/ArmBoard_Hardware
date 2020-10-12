@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Armboard-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L Armboard-rescue:Molex_SL_02-MRDT_Connectors-Armboard-rescue Conn?
 U 1 1 5F79C943
 P 5850 3250
 F 0 "Conn?" H 5978 3408 60  0000 L CNN
@@ -107,4 +107,56 @@ Wire Wire Line
 Connection ~ 5300 3100
 Text Notes 4950 3950 0    50   ~ 0
 Orange
+Text GLabel 4500 4400 0    50   Input ~ 0
+Solenoid_Actuation
+$Comp
+L Device:R R?
+U 1 1 5F8410BE
+P 4750 4700
+AR Path="/5F73890D/5F8410BE" Ref="R?"  Part="1" 
+AR Path="/5F738767/5F8410BE" Ref="R?"  Part="1" 
+F 0 "R?" H 4820 4746 50  0000 L CNN
+F 1 "500" H 4820 4655 50  0000 L CNN
+F 2 "" V 4680 4700 50  0001 C CNN
+F 3 "~" H 4750 4700 50  0001 C CNN
+	1    4750 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F841F2B
+P 4750 5100
+F 0 "D?" V 4789 4982 50  0000 R CNN
+F 1 "LED" V 4698 4982 50  0000 R CNN
+F 2 "" H 4750 5100 50  0001 C CNN
+F 3 "~" H 4750 5100 50  0001 C CNN
+	1    4750 5100
+	0    -1   -1   0   
+$EndComp
+Text Notes 4400 5150 0    50   ~ 0
+Yellow
+$Comp
+L power:GND #PWR?
+U 1 1 5F842098
+P 4750 5350
+F 0 "#PWR?" H 4750 5100 50  0001 C CNN
+F 1 "GND" H 4755 5177 50  0000 C CNN
+F 2 "" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4400 4750 4400
+Wire Wire Line
+	4750 4550 4750 4400
+Connection ~ 4750 4400
+Wire Wire Line
+	4750 4400 5000 4400
+Wire Wire Line
+	4750 4950 4750 4850
+Wire Wire Line
+	4750 5350 4750 5250
+Text Notes 6500 7150 0    157  ~ 31
+Solenoid Actuation
 $EndSCHEMATC

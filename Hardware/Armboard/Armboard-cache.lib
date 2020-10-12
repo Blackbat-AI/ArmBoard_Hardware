@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue
+# Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue-Armboard-rescue
 #
-DEF Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue Conn 0 0 N Y 5 L N
+DEF Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue-Armboard-rescue Conn 0 0 N Y 5 L N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue" 100 250 60 H V C CNN
+F1 "Armboard-rescue_AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue-Armboard-rescue" 100 250 60 H V C CNN
 F2 "" -150 -550 60 H I C CNN
 F3 "" -150 -550 60 H I C CNN
 DRAW
@@ -21,11 +21,11 @@ X ~ 1 400 100 200 L 50 39 5 1 I
 ENDDRAW
 ENDDEF
 #
-# Armboard-rescue_LM2576D2TR4-MRDT_Devices
+# Armboard-rescue_LM2576D2TR4-MRDT_Devices-Armboard-rescue
 #
-DEF Armboard-rescue_LM2576D2TR4-MRDT_Devices U 0 40 Y Y 1 F N
+DEF Armboard-rescue_LM2576D2TR4-MRDT_Devices-Armboard-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 450 50 H V C CNN
-F1 "Armboard-rescue_LM2576D2TR4-MRDT_Devices" 0 350 50 H V C CNN
+F1 "Armboard-rescue_LM2576D2TR4-MRDT_Devices-Armboard-rescue" 0 350 50 H V C CNN
 F2 "" 0 450 50 H I C CNN
 F3 "" 0 450 50 H I C CNN
 DRAW
@@ -39,11 +39,11 @@ X TAB 6 -500 -100 100 R 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Armboard-rescue_Molex_SL_02-MRDT_Connectors
+# Armboard-rescue_Molex_SL_02-MRDT_Connectors-Armboard-rescue
 #
-DEF Armboard-rescue_Molex_SL_02-MRDT_Connectors Conn 0 40 Y Y 1 F N
+DEF Armboard-rescue_Molex_SL_02-MRDT_Connectors-Armboard-rescue Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Armboard-rescue_Molex_SL_02-MRDT_Connectors" 50 250 60 H V C CNN
+F1 "Armboard-rescue_Molex_SL_02-MRDT_Connectors-Armboard-rescue" 50 250 60 H V C CNN
 F2 "" 0 -100 60 H I C CNN
 F3 "" 0 -100 60 H I C CNN
 DRAW
@@ -53,11 +53,11 @@ X ~ 2 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Armboard-rescue_Molex_SL_03-MRDT_Connectors
+# Armboard-rescue_Molex_SL_03-MRDT_Connectors-Armboard-rescue
 #
-DEF Armboard-rescue_Molex_SL_03-MRDT_Connectors Conn 0 40 Y Y 1 F N
+DEF Armboard-rescue_Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn 0 40 Y Y 1 F N
 F0 "Conn" 150 -50 60 H V C CNN
-F1 "Armboard-rescue_Molex_SL_03-MRDT_Connectors" 50 350 60 H V C CNN
+F1 "Armboard-rescue_Molex_SL_03-MRDT_Connectors-Armboard-rescue" 50 350 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -68,11 +68,11 @@ X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields
+# Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue
 #
-DEF Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields U 0 20 Y Y 8 L N
+DEF Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U 0 20 Y Y 8 L N
 F0 "U" 100 -50 60 H V C CNN
-F1 "Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields" 100 1150 60 H V C CNN
+F1 "Armboard-rescue_TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue" 100 1150 60 H V C CNN
 F2 "" 0 0 60 H I C CNN
 F3 "" 0 0 60 H I C CNN
 DRAW
@@ -168,11 +168,11 @@ X D2_5 Rese' -200 550 200 R 50 50 8 1 I
 ENDDRAW
 ENDDEF
 #
-# Armboard-rescue_Test_Point-MRDT_Connectors
+# Armboard-rescue_Test_Point-MRDT_Connectors-Armboard-rescue
 #
-DEF Armboard-rescue_Test_Point-MRDT_Connectors J 0 40 N N 1 F N
+DEF Armboard-rescue_Test_Point-MRDT_Connectors-Armboard-rescue J 0 40 N N 1 F N
 F0 "J" 50 -50 60 H V C CNN
-F1 "Armboard-rescue_Test_Point-MRDT_Connectors" 0 250 60 H V C CNN
+F1 "Armboard-rescue_Test_Point-MRDT_Connectors-Armboard-rescue" 0 250 60 H V C CNN
 F2 "" 0 -50 60 H I C CNN
 F3 "" 0 -50 60 H I C CNN
 DRAW
@@ -234,6 +234,28 @@ P 2 0 1 13 -60 -20 60 -20 N
 P 2 0 1 12 -60 20 60 20 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_D_Schottky
+#
+DEF Device_D_Schottky D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "Device_D_Schottky" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ TO-???*
+ *_Diode_*
+ *SingleDiode*
+ D_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 50 0 -50 0 N
+P 4 0 1 10 50 50 50 -50 -50 0 50 50 N
+P 6 0 1 10 -75 25 -75 50 -50 50 -50 -50 -25 -50 -25 -25 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -367,6 +389,35 @@ X V+Log 2 400 100 200 L 50 39 2 1 I
 X V+Act 3 400 100 200 L 50 39 3 1 I
 X PV+ 4 400 100 200 L 50 39 4 1 I
 X ~ 1 400 100 200 L 50 39 5 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_SL_02
+#
+DEF MRDT_Connectors_Molex_SL_02 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_02" 50 250 60 H V C CNN
+F2 "" 0 -100 60 H I C CNN
+F3 "" 0 -100 60 H I C CNN
+DRAW
+S 0 200 100 0 0 1 0 N
+X ~ 1 -200 150 200 R 50 50 1 1 I
+X ~ 2 -200 50 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# MRDT_Connectors_Molex_SL_03
+#
+DEF MRDT_Connectors_Molex_SL_03 Conn 0 40 Y Y 1 F N
+F0 "Conn" 150 -50 60 H V C CNN
+F1 "MRDT_Connectors_Molex_SL_03" 50 350 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 0 300 100 0 0 1 0 N
+X ~ 1 -200 250 200 R 50 50 1 1 I
+X ~ 2 -200 150 200 R 50 50 1 1 I
+X ~ 3 -200 50 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #

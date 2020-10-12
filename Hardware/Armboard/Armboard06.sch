@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Armboard-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L Armboard-rescue:Molex_SL_02-MRDT_Connectors-Armboard-rescue Conn?
 U 1 1 5F795BD7
 P 5950 3100
 F 0 "Conn?" H 6078 3258 60  0000 L CNN
@@ -25,7 +25,7 @@ F 3 "" H 5950 3000 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:Molex_SL_02-MRDT_Connectors Conn?
+L Armboard-rescue:Molex_SL_02-MRDT_Connectors-Armboard-rescue Conn?
 U 1 1 5F795EEA
 P 5950 3500
 F 0 "Conn?" H 6078 3658 60  0000 L CNN
@@ -124,4 +124,60 @@ Wire Wire Line
 	5400 4400 5400 4300
 Text Notes 5050 4200 0    50   ~ 0
 Orange
+Text GLabel 4600 4650 0    50   Input ~ 0
+Laser_Control
+$Comp
+L Device:R R?
+U 1 1 5F8435B3
+P 4850 4950
+AR Path="/5F73890D/5F8435B3" Ref="R?"  Part="1" 
+AR Path="/5F738767/5F8435B3" Ref="R?"  Part="1" 
+F 0 "R?" H 4920 4996 50  0000 L CNN
+F 1 "500" H 4920 4905 50  0000 L CNN
+F 2 "" V 4780 4950 50  0001 C CNN
+F 3 "~" H 4850 4950 50  0001 C CNN
+	1    4850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F8435B9
+P 4850 5350
+AR Path="/5F738767/5F8435B9" Ref="D?"  Part="1" 
+AR Path="/5F73890D/5F8435B9" Ref="D?"  Part="1" 
+F 0 "D?" V 4889 5232 50  0000 R CNN
+F 1 "LED" V 4798 5232 50  0000 R CNN
+F 2 "" H 4850 5350 50  0001 C CNN
+F 3 "~" H 4850 5350 50  0001 C CNN
+	1    4850 5350
+	0    -1   -1   0   
+$EndComp
+Text Notes 4500 5400 0    50   ~ 0
+Yellow
+$Comp
+L power:GND #PWR?
+U 1 1 5F8435C0
+P 4850 5600
+AR Path="/5F738767/5F8435C0" Ref="#PWR?"  Part="1" 
+AR Path="/5F73890D/5F8435C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4850 5350 50  0001 C CNN
+F 1 "GND" H 4855 5427 50  0000 C CNN
+F 2 "" H 4850 5600 50  0001 C CNN
+F 3 "" H 4850 5600 50  0001 C CNN
+	1    4850 5600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4650 4850 4650
+Wire Wire Line
+	4850 4800 4850 4650
+Connection ~ 4850 4650
+Wire Wire Line
+	4850 4650 5100 4650
+Wire Wire Line
+	4850 5200 4850 5100
+Wire Wire Line
+	4850 5600 4850 5500
+Text Notes 6500 7150 0    157  ~ 31
+Laser Control
 $EndSCHEMATC
