@@ -118,7 +118,7 @@ $EndSheet
 $Sheet
 S 1520 3340 1680 1860
 U 5F739ECE
-F0 "Limit Switches" 50
+F0 "Limit Switches and Buttons" 50
 F1 "Armboard07.sch" 50
 $EndSheet
 $Sheet

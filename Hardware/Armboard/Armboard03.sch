@@ -262,4 +262,30 @@ Text GLabel 6130 2740 0    50   Input ~ 0
 Tx_3_Tiva
 Wire Wire Line
 	6200 2740 6130 2740
+Text GLabel 4580 3150 2    50   Input ~ 0
+Motor_2
+Wire Wire Line
+	4510 3150 4580 3150
+Text GLabel 4580 3050 2    50   Input ~ 0
+Motor_1
+Wire Wire Line
+	4510 3050 4580 3050
+Text GLabel 4580 3350 2    50   Input ~ 0
+Motor_4
+Wire Wire Line
+	4510 3350 4580 3350
+Text GLabel 4580 3250 2    50   Input ~ 0
+Motor_3
+Wire Wire Line
+	4510 3250 4580 3250
+Text GLabel 4570 5170 2    50   Input ~ 0
+Motor_6
+Wire Wire Line
+	4500 5170 4570 5170
+Text GLabel 4570 5070 2    50   Input ~ 0
+Motor_5
+Wire Wire Line
+	4500 5070 4570 5070
+Text Notes 6590 7160 0    157  ~ 31
+Tiva Pinout
 $EndSCHEMATC

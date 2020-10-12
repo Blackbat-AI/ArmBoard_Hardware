@@ -184,20 +184,18 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F845545
-P 2830 1620
-F 0 "#PWR?" H 2830 1370 50  0001 C CNN
-F 1 "GND" H 2835 1447 50  0000 C CNN
-F 2 "" H 2830 1620 50  0001 C CNN
-F 3 "" H 2830 1620 50  0001 C CNN
-	1    2830 1620
-	0    1    1    0   
+P 2700 1690
+F 0 "#PWR?" H 2700 1440 50  0001 C CNN
+F 1 "GND" H 2705 1517 50  0000 C CNN
+F 2 "" H 2700 1690 50  0001 C CNN
+F 3 "" H 2700 1690 50  0001 C CNN
+	1    2700 1690
+	1    0    0    -1  
 $EndComp
 Text Notes 3790 1360 0    59   ~ 0
 Enc_1
 Text GLabel 3320 1720 0    49   Input ~ 0
 Enc_1_PWM
-Wire Wire Line
-	2830 1620 3610 1620
 $Comp
 L Device:R R?
 U 1 1 5F8484A6
@@ -245,21 +243,6 @@ Wire Wire Line
 Text Notes 3140 2340 0    50   ~ 0
 Yellow
 $Comp
-L power:GND #PWR?
-U 1 1 5F84C9DB
-P 2860 3440
-F 0 "#PWR?" H 2860 3190 50  0001 C CNN
-F 1 "GND" H 2865 3267 50  0000 C CNN
-F 2 "" H 2860 3440 50  0001 C CNN
-F 3 "" H 2860 3440 50  0001 C CNN
-	1    2860 3440
-	0    1    1    0   
-$EndComp
-Text GLabel 3350 3540 0    49   Input ~ 0
-Enc_2_PWM
-Wire Wire Line
-	2860 3440 3640 3440
-$Comp
 L Device:R R?
 U 1 1 5F84C9E3
 P 3500 3760
@@ -305,21 +288,8 @@ Wire Wire Line
 	3500 4360 3500 4290
 Text Notes 3170 4160 0    50   ~ 0
 Yellow
-$Comp
-L power:GND #PWR?
-U 1 1 5F8509BE
-P 2900 5250
-F 0 "#PWR?" H 2900 5000 50  0001 C CNN
-F 1 "GND" H 2905 5077 50  0000 C CNN
-F 2 "" H 2900 5250 50  0001 C CNN
-F 3 "" H 2900 5250 50  0001 C CNN
-	1    2900 5250
-	0    1    1    0   
-$EndComp
 Text GLabel 3390 5350 0    49   Input ~ 0
 Enc_3_PWM
-Wire Wire Line
-	2900 5250 3680 5250
 $Comp
 L Device:R R?
 U 1 1 5F8509C6
@@ -366,21 +336,8 @@ Wire Wire Line
 	3540 6170 3540 6100
 Text Notes 3210 5970 0    50   ~ 0
 Yellow
-$Comp
-L power:GND #PWR?
-U 1 1 5F855852
-P 6190 1590
-F 0 "#PWR?" H 6190 1340 50  0001 C CNN
-F 1 "GND" H 6195 1417 50  0000 C CNN
-F 2 "" H 6190 1590 50  0001 C CNN
-F 3 "" H 6190 1590 50  0001 C CNN
-	1    6190 1590
-	0    1    1    0   
-$EndComp
 Text GLabel 6680 1690 0    49   Input ~ 0
 Enc_4_PWM
-Wire Wire Line
-	6190 1590 6970 1590
 $Comp
 L Device:R R?
 U 1 1 5F85585A
@@ -427,21 +384,8 @@ Wire Wire Line
 	6830 2510 6830 2440
 Text Notes 6500 2310 0    50   ~ 0
 Yellow
-$Comp
-L power:GND #PWR?
-U 1 1 5F8564D4
-P 6240 3430
-F 0 "#PWR?" H 6240 3180 50  0001 C CNN
-F 1 "GND" H 6245 3257 50  0000 C CNN
-F 2 "" H 6240 3430 50  0001 C CNN
-F 3 "" H 6240 3430 50  0001 C CNN
-	1    6240 3430
-	0    1    1    0   
-$EndComp
 Text GLabel 6730 3530 0    49   Input ~ 0
 Enc_5_PWM
-Wire Wire Line
-	6240 3430 7020 3430
 $Comp
 L Device:R R?
 U 1 1 5F8564DC
@@ -488,21 +432,8 @@ Wire Wire Line
 	6880 4350 6880 4280
 Text Notes 6550 4150 0    50   ~ 0
 Yellow
-$Comp
-L power:GND #PWR?
-U 1 1 5F857291
-P 6260 5240
-F 0 "#PWR?" H 6260 4990 50  0001 C CNN
-F 1 "GND" H 6265 5067 50  0000 C CNN
-F 2 "" H 6260 5240 50  0001 C CNN
-F 3 "" H 6260 5240 50  0001 C CNN
-	1    6260 5240
-	0    1    1    0   
-$EndComp
 Text GLabel 6750 5340 0    49   Input ~ 0
 Enc_6_PWM
-Wire Wire Line
-	6260 5240 7040 5240
 $Comp
 L Device:R R?
 U 1 1 5F857299
@@ -549,4 +480,85 @@ Wire Wire Line
 	6900 6160 6900 6090
 Text Notes 6570 5960 0    50   ~ 0
 Yellow
+Wire Wire Line
+	2700 1620 2700 1690
+Wire Wire Line
+	2700 1620 3610 1620
+Text GLabel 3350 3540 0    49   Input ~ 0
+Enc_2_PWM
+$Comp
+L power:GND #PWR?
+U 1 1 5F84A43A
+P 2730 3510
+F 0 "#PWR?" H 2730 3260 50  0001 C CNN
+F 1 "GND" H 2735 3337 50  0000 C CNN
+F 2 "" H 2730 3510 50  0001 C CNN
+F 3 "" H 2730 3510 50  0001 C CNN
+	1    2730 3510
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2730 3440 2730 3510
+Wire Wire Line
+	2730 3440 3640 3440
+$Comp
+L power:GND #PWR?
+U 1 1 5F84B8CF
+P 2770 5320
+F 0 "#PWR?" H 2770 5070 50  0001 C CNN
+F 1 "GND" H 2775 5147 50  0000 C CNN
+F 2 "" H 2770 5320 50  0001 C CNN
+F 3 "" H 2770 5320 50  0001 C CNN
+	1    2770 5320
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2770 5250 2770 5320
+Wire Wire Line
+	2770 5250 3680 5250
+$Comp
+L power:GND #PWR?
+U 1 1 5F84CEAD
+P 6060 1660
+F 0 "#PWR?" H 6060 1410 50  0001 C CNN
+F 1 "GND" H 6065 1487 50  0000 C CNN
+F 2 "" H 6060 1660 50  0001 C CNN
+F 3 "" H 6060 1660 50  0001 C CNN
+	1    6060 1660
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6060 1590 6060 1660
+Wire Wire Line
+	6060 1590 6970 1590
+$Comp
+L power:GND #PWR?
+U 1 1 5F84E5D5
+P 6110 3500
+F 0 "#PWR?" H 6110 3250 50  0001 C CNN
+F 1 "GND" H 6115 3327 50  0000 C CNN
+F 2 "" H 6110 3500 50  0001 C CNN
+F 3 "" H 6110 3500 50  0001 C CNN
+	1    6110 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6110 3430 6110 3500
+Wire Wire Line
+	6110 3430 7020 3430
+$Comp
+L power:GND #PWR?
+U 1 1 5F84FDBC
+P 6130 5310
+F 0 "#PWR?" H 6130 5060 50  0001 C CNN
+F 1 "GND" H 6135 5137 50  0000 C CNN
+F 2 "" H 6130 5310 50  0001 C CNN
+F 3 "" H 6130 5310 50  0001 C CNN
+	1    6130 5310
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6130 5240 6130 5310
+Wire Wire Line
+	6130 5240 7040 5240
 $EndSCHEMATC
