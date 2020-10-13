@@ -78,21 +78,8 @@ F 3 "" H 7290 2360 60  0001 C CNN
 	1    7290 2460
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F876076
-P 6950 2240
-F 0 "#PWR?" H 6950 2090 50  0001 C CNN
-F 1 "+3.3V" H 6965 2413 50  0000 C CNN
-F 2 "" H 6950 2240 50  0001 C CNN
-F 3 "" H 6950 2240 50  0001 C CNN
-	1    6950 2240
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7090 2310 6950 2310
-Wire Wire Line
-	6950 2310 6950 2240
 Text GLabel 6800 4310 0    49   Input ~ 0
 LS_2
 $Comp
@@ -158,21 +145,8 @@ F 3 "" H 7290 4260 60  0001 C CNN
 	1    7290 4360
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F877D1B
-P 6950 4140
-F 0 "#PWR?" H 6950 3990 50  0001 C CNN
-F 1 "+3.3V" H 6965 4313 50  0000 C CNN
-F 2 "" H 6950 4140 50  0001 C CNN
-F 3 "" H 6950 4140 50  0001 C CNN
-	1    6950 4140
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7090 4210 6950 4210
-Wire Wire Line
-	6950 4210 6950 4140
 Text GLabel 8760 2440 0    49   Input ~ 0
 LS_3
 $Comp
@@ -238,21 +212,8 @@ F 3 "" H 9250 2390 60  0001 C CNN
 	1    9250 2490
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F879724
-P 8910 2270
-F 0 "#PWR?" H 8910 2120 50  0001 C CNN
-F 1 "+3.3V" H 8925 2443 50  0000 C CNN
-F 2 "" H 8910 2270 50  0001 C CNN
-F 3 "" H 8910 2270 50  0001 C CNN
-	1    8910 2270
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9050 2340 8910 2340
-Wire Wire Line
-	8910 2340 8910 2270
 Text GLabel 8760 4340 0    49   Input ~ 0
 LS_4
 $Comp
@@ -318,34 +279,10 @@ F 3 "" H 9250 4290 60  0001 C CNN
 	1    9250 4390
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F87974C
-P 8910 4170
-F 0 "#PWR?" H 8910 4020 50  0001 C CNN
-F 1 "+3.3V" H 8925 4343 50  0000 C CNN
-F 2 "" H 8910 4170 50  0001 C CNN
-F 3 "" H 8910 4170 50  0001 C CNN
-	1    8910 4170
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9050 4240 8910 4240
-Wire Wire Line
-	8910 4240 8910 4170
 Text Notes 6530 7150 0    157  ~ 31
 Limit Switches and Buttons
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F85F786
-P 2150 1550
-F 0 "#PWR?" H 2150 1400 50  0001 C CNN
-F 1 "+3.3V" H 2165 1723 50  0000 C CNN
-F 2 "" H 2150 1550 50  0001 C CNN
-F 3 "" H 2150 1550 50  0001 C CNN
-	1    2150 1550
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F85FB83
@@ -380,8 +317,6 @@ F 3 "~" H 3050 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 1550 2150 1750
-Wire Wire Line
 	2150 1750 2350 1750
 Wire Wire Line
 	2750 1750 2850 1750
@@ -410,17 +345,6 @@ F 2 "" H 3500 1750 50  0001 C CNN
 F 3 "~" H 3500 1750 50  0001 C CNN
 	1    3500 1750
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F86507C
-P 2150 2500
-F 0 "#PWR?" H 2150 2350 50  0001 C CNN
-F 1 "+3.3V" H 2165 2673 50  0000 C CNN
-F 2 "" H 2150 2500 50  0001 C CNN
-F 3 "" H 2150 2500 50  0001 C CNN
-	1    2150 2500
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -456,8 +380,6 @@ F 3 "~" H 3050 2700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 2500 2150 2700
-Wire Wire Line
 	2150 2700 2350 2700
 Wire Wire Line
 	2750 2700 2850 2700
@@ -486,17 +408,6 @@ F 2 "" H 3500 2700 50  0001 C CNN
 F 3 "~" H 3500 2700 50  0001 C CNN
 	1    3500 2700
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F8660F2
-P 2150 3450
-F 0 "#PWR?" H 2150 3300 50  0001 C CNN
-F 1 "+3.3V" H 2165 3623 50  0000 C CNN
-F 2 "" H 2150 3450 50  0001 C CNN
-F 3 "" H 2150 3450 50  0001 C CNN
-	1    2150 3450
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -532,8 +443,6 @@ F 3 "~" H 3050 3650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 3450 2150 3650
-Wire Wire Line
 	2150 3650 2350 3650
 Wire Wire Line
 	2750 3650 2850 3650
@@ -562,17 +471,6 @@ F 2 "" H 3500 3650 50  0001 C CNN
 F 3 "~" H 3500 3650 50  0001 C CNN
 	1    3500 3650
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F868CEB
-P 2150 4450
-F 0 "#PWR?" H 2150 4300 50  0001 C CNN
-F 1 "+3.3V" H 2165 4623 50  0000 C CNN
-F 2 "" H 2150 4450 50  0001 C CNN
-F 3 "" H 2150 4450 50  0001 C CNN
-	1    2150 4450
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -608,8 +506,6 @@ F 3 "~" H 3050 4650 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 4450 2150 4650
-Wire Wire Line
 	2150 4650 2350 4650
 Wire Wire Line
 	2750 4650 2850 4650
@@ -638,17 +534,6 @@ F 2 "" H 3500 4650 50  0001 C CNN
 F 3 "~" H 3500 4650 50  0001 C CNN
 	1    3500 4650
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F868D14
-P 2150 5400
-F 0 "#PWR?" H 2150 5250 50  0001 C CNN
-F 1 "+3.3V" H 2165 5573 50  0000 C CNN
-F 2 "" H 2150 5400 50  0001 C CNN
-F 3 "" H 2150 5400 50  0001 C CNN
-	1    2150 5400
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -684,8 +569,6 @@ F 3 "~" H 3050 5600 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 5400 2150 5600
-Wire Wire Line
 	2150 5600 2350 5600
 Wire Wire Line
 	2750 5600 2850 5600
@@ -714,17 +597,6 @@ F 2 "" H 3500 5600 50  0001 C CNN
 F 3 "~" H 3500 5600 50  0001 C CNN
 	1    3500 5600
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F868D3D
-P 2150 6350
-F 0 "#PWR?" H 2150 6200 50  0001 C CNN
-F 1 "+3.3V" H 2165 6523 50  0000 C CNN
-F 2 "" H 2150 6350 50  0001 C CNN
-F 3 "" H 2150 6350 50  0001 C CNN
-	1    2150 6350
-	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -760,8 +632,6 @@ F 3 "~" H 3050 6550 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2150 6350 2150 6550
-Wire Wire Line
 	2150 6550 2350 6550
 Wire Wire Line
 	2750 6550 2850 6550
@@ -795,4 +665,24 @@ Text Notes 7550 1650 0    98   ~ 20
 Limit Switches
 Text Notes 2750 1100 0    98   ~ 20
 Buttons
+Text HLabel 2150 1750 0    50   Input ~ 0
+3.3V
+Text HLabel 2150 2700 0    50   Input ~ 0
+3.3V
+Text HLabel 2150 3650 0    50   Input ~ 0
+3.3V
+Text HLabel 2150 4650 0    50   Input ~ 0
+3.3V
+Text HLabel 2150 5600 0    50   Input ~ 0
+3.3V
+Text HLabel 2150 6550 0    50   Input ~ 0
+3.3V
+Text HLabel 6950 4210 0    50   Input ~ 0
+3.3V
+Text HLabel 8910 4240 0    50   Input ~ 0
+3.3V
+Text HLabel 8910 2340 0    50   Input ~ 0
+3.3V
+Text HLabel 6950 2310 0    50   Input ~ 0
+3.3V
 $EndSCHEMATC
