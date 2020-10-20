@@ -93,13 +93,13 @@ F0 "Laser Control" 50
 F1 "Armboard06.sch" 50
 $EndSheet
 $Sheet
-S 1520 3340 1680 1860
+S 1745 3655 1320 1335
 U 5F739ECE
 F0 "Limit Switches and Buttons" 50
 F1 "Armboard07.sch" 50
 $EndSheet
 $Sheet
-S 3500 3350 1660 1840
+S 3725 3665 1350 1315
 U 5F73A06A
 F0 "Serial Pins" 50
 F1 "Armboard08.sch" 50
@@ -469,4 +469,23 @@ Wire Wire Line
 Connection ~ 2120 2045
 Wire Wire Line
 	2120 2045 2120 2270
+Text HLabel 1745 4070 2    50   Input ~ 0
+3.3V
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5F8D31F6
+P 1450 3850
+AR Path="/5F67ABAC/5F8D31F6" Ref="#PWR?"  Part="1" 
+AR Path="/5F8D31F6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1450 3700 50  0001 C CNN
+F 1 "+3.3V" H 1465 4023 50  0000 C CNN
+F 2 "" H 1450 3850 50  0001 C CNN
+F 3 "" H 1450 3850 50  0001 C CNN
+	1    1450 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1745 4070 1450 4070
+Wire Wire Line
+	1450 3850 1450 4070
 $EndSCHEMATC

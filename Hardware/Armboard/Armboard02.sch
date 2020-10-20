@@ -283,17 +283,6 @@ F 3 "" H 4000 3300 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3500 3200 4500 3200
-$Comp
-L Device:D_Schottky D_Schottky
-U 1 1 5F84D0E8
-P 2650 3400
-F 0 "D_Schottky" V 2600 2900 50  0000 L CNN
-F 1 "D1" V 2700 3050 50  0000 L CNN
-F 2 "" H 2650 3400 50  0001 C CNN
-F 3 "~" H 2650 3400 50  0001 C CNN
-	1    2650 3400
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	6100 2150 7250 2150
 Connection ~ 6100 2850
@@ -313,4 +302,15 @@ Text HLabel 7250 2150 2    50   Input ~ 0
 Gripper1
 Text HLabel 7200 2850 2    50   Input ~ 0
 Gripper2
+$Comp
+L Device:D_Zener D1
+U 1 1 5F8E563D
+P 2650 3400
+F 0 "D1" V 2600 3150 50  0000 L CNN
+F 1 "D_Zener" V 2700 3000 50  0000 L CNN
+F 2 "" H 2650 3400 50  0001 C CNN
+F 3 "~" H 2650 3400 50  0001 C CNN
+	1    2650 3400
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
