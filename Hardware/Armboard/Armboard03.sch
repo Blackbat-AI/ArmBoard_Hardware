@@ -104,21 +104,16 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5F83BEC8
-P 4800 2600
-F 0 "#PWR?" H 4800 2350 50  0001 C CNN
-F 1 "GND" H 4805 2427 50  0000 C CNN
-F 2 "" H 4800 2600 50  0001 C CNN
-F 3 "" H 4800 2600 50  0001 C CNN
-	1    4800 2600
+P 4790 2600
+F 0 "#PWR?" H 4790 2350 50  0001 C CNN
+F 1 "GND" H 4795 2427 50  0000 C CNN
+F 2 "" H 4790 2600 50  0001 C CNN
+F 3 "" H 4790 2600 50  0001 C CNN
+	1    4790 2600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 2550 4510 2550
-Wire Wire Line
-	4800 2550 4800 2600
-Connection ~ 4510 2550
-Wire Wire Line
-	4510 2550 4800 2550
+	4790 2550 4790 2600
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F83D247
@@ -238,11 +233,11 @@ Text GLabel 3540 2650 0    50   Input ~ 0
 Rx_1_Tiva
 Wire Wire Line
 	3610 2650 3540 2650
-Text GLabel 3540 2750 0    50   Input ~ 0
+Text GLabel 3540 2750 0    50   Output ~ 0
 Tx_1_Tiva
 Wire Wire Line
 	3610 2750 3540 2750
-Text GLabel 7170 2940 2    50   Input ~ 0
+Text GLabel 7170 2940 2    50   Output ~ 0
 Tx_2_Tiva
 Wire Wire Line
 	7100 2940 7170 2940
@@ -258,7 +253,7 @@ Text GLabel 6130 2640 0    50   Input ~ 0
 Rx_3_Tiva
 Wire Wire Line
 	6200 2640 6130 2640
-Text GLabel 6130 2740 0    50   Input ~ 0
+Text GLabel 6130 2740 0    50   Output ~ 0
 Tx_3_Tiva
 Wire Wire Line
 	6200 2740 6130 2740
@@ -288,4 +283,56 @@ Wire Wire Line
 	4500 5070 4570 5070
 Text Notes 6590 7160 0    157  ~ 31
 Tiva Pinout
+Wire Wire Line
+	4510 2550 4790 2550
+NoConn ~ 3610 2550
+NoConn ~ 3610 2850
+NoConn ~ 3610 2950
+NoConn ~ 3610 3050
+NoConn ~ 3610 3150
+NoConn ~ 4510 2650
+NoConn ~ 4510 2750
+NoConn ~ 4510 2850
+NoConn ~ 4510 2950
+NoConn ~ 4510 2450
+NoConn ~ 6200 2540
+NoConn ~ 6200 2840
+NoConn ~ 6200 2940
+NoConn ~ 6200 3040
+NoConn ~ 6200 3140
+NoConn ~ 6200 3240
+NoConn ~ 6200 3340
+NoConn ~ 7100 2440
+NoConn ~ 7100 2640
+NoConn ~ 7100 2740
+NoConn ~ 7100 3040
+NoConn ~ 7100 3140
+NoConn ~ 3600 4970
+NoConn ~ 3600 5070
+NoConn ~ 3600 5170
+NoConn ~ 3600 5270
+NoConn ~ 3600 5370
+NoConn ~ 3600 5470
+NoConn ~ 4500 4670
+NoConn ~ 4500 4770
+NoConn ~ 4500 4870
+NoConn ~ 4500 4970
+NoConn ~ 4500 5270
+NoConn ~ 4500 5370
+NoConn ~ 4500 5470
+NoConn ~ 6220 4770
+NoConn ~ 6220 4870
+NoConn ~ 6220 4970
+NoConn ~ 6220 5070
+NoConn ~ 6220 5370
+NoConn ~ 6220 5470
+NoConn ~ 7120 4670
+NoConn ~ 7120 4770
+NoConn ~ 7120 4870
+NoConn ~ 7120 4970
+NoConn ~ 7120 5070
+NoConn ~ 7120 5170
+NoConn ~ 7120 5270
+NoConn ~ 7120 5370
+NoConn ~ 7120 5470
 $EndSCHEMATC

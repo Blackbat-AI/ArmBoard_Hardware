@@ -194,7 +194,7 @@ F 3 "" H 2700 1690 50  0001 C CNN
 $EndComp
 Text Notes 3790 1360 0    59   ~ 0
 Enc_1
-Text GLabel 3320 1720 0    49   Input ~ 0
+Text GLabel 3320 1720 0    49   Output ~ 0
 Enc_1_PWM
 $Comp
 L Device:R R?
@@ -288,7 +288,7 @@ Wire Wire Line
 	3500 4360 3500 4290
 Text Notes 3170 4160 0    50   ~ 0
 Yellow
-Text GLabel 3390 5350 0    49   Input ~ 0
+Text GLabel 3390 5350 0    49   Output ~ 0
 Enc_3_PWM
 $Comp
 L Device:R R?
@@ -336,7 +336,7 @@ Wire Wire Line
 	3540 6170 3540 6100
 Text Notes 3210 5970 0    50   ~ 0
 Yellow
-Text GLabel 6680 1690 0    49   Input ~ 0
+Text GLabel 6680 1690 0    49   Output ~ 0
 Enc_4_PWM
 $Comp
 L Device:R R?
@@ -384,7 +384,7 @@ Wire Wire Line
 	6830 2510 6830 2440
 Text Notes 6500 2310 0    50   ~ 0
 Yellow
-Text GLabel 6730 3530 0    49   Input ~ 0
+Text GLabel 6730 3530 0    49   Output ~ 0
 Enc_5_PWM
 $Comp
 L Device:R R?
@@ -432,7 +432,7 @@ Wire Wire Line
 	6880 4350 6880 4280
 Text Notes 6550 4150 0    50   ~ 0
 Yellow
-Text GLabel 6750 5340 0    49   Input ~ 0
+Text GLabel 6750 5340 0    49   Output ~ 0
 Enc_6_PWM
 $Comp
 L Device:R R?
@@ -484,7 +484,7 @@ Wire Wire Line
 	2700 1620 2700 1690
 Wire Wire Line
 	2700 1620 3610 1620
-Text GLabel 3350 3540 0    49   Input ~ 0
+Text GLabel 3350 3540 0    49   Output ~ 0
 Enc_2_PWM
 $Comp
 L power:GND #PWR?

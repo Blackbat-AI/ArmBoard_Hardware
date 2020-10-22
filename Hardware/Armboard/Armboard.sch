@@ -469,23 +469,4 @@ Wire Wire Line
 Connection ~ 2120 2045
 Wire Wire Line
 	2120 2045 2120 2270
-Text HLabel 1745 4070 2    50   Input ~ 0
-3.3V
-$Comp
-L power:+3.3V #PWR?
-U 1 1 5F8D31F6
-P 1450 3850
-AR Path="/5F67ABAC/5F8D31F6" Ref="#PWR?"  Part="1" 
-AR Path="/5F8D31F6" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 1450 3700 50  0001 C CNN
-F 1 "+3.3V" H 1465 4023 50  0000 C CNN
-F 2 "" H 1450 3850 50  0001 C CNN
-F 3 "" H 1450 3850 50  0001 C CNN
-	1    1450 3850
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1745 4070 1450 4070
-Wire Wire Line
-	1450 3850 1450 4070
 $EndSCHEMATC
