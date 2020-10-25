@@ -82,23 +82,23 @@ $EndComp
 $Comp
 L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
 U 7 1 5F757FE4
-P 6420 5520
-F 0 "U?" H 6480 6800 60  0000 L CNN
-F 1 "TM4C129E_Launchpad" H 5670 6690 60  0000 L CNN
-F 2 "" H 6420 5520 60  0001 C CNN
-F 3 "" H 6420 5520 60  0001 C CNN
-	7    6420 5520
+P 6520 5520
+F 0 "U?" H 6580 6800 60  0000 L CNN
+F 1 "TM4C129E_Launchpad" H 5770 6690 60  0000 L CNN
+F 2 "" H 6520 5520 60  0001 C CNN
+F 3 "" H 6520 5520 60  0001 C CNN
+	7    6520 5520
 	1    0    0    -1  
 $EndComp
 $Comp
 L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
 U 8 1 5F7598C0
-P 6920 5520
-F 0 "U?" H 7090 6810 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 6680 6690 60  0000 C CNN
-F 2 "" H 6920 5520 60  0001 C CNN
-F 3 "" H 6920 5520 60  0001 C CNN
-	8    6920 5520
+P 7050 5550
+F 0 "U?" H 7220 6840 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 6810 6720 60  0000 C CNN
+F 2 "" H 7050 5550 60  0001 C CNN
+F 3 "" H 7050 5550 60  0001 C CNN
+	8    7050 5550
 	-1   0    0    -1  
 $EndComp
 $Comp
@@ -169,18 +169,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 5F8401EF
-P 7410 4620
-F 0 "#PWR?" H 7410 4370 50  0001 C CNN
-F 1 "GND" H 7415 4447 50  0000 C CNN
-F 2 "" H 7410 4620 50  0001 C CNN
-F 3 "" H 7410 4620 50  0001 C CNN
-	1    7410 4620
+P 7460 4650
+F 0 "#PWR?" H 7460 4400 50  0001 C CNN
+F 1 "GND" H 7465 4477 50  0000 C CNN
+F 2 "" H 7460 4650 50  0001 C CNN
+F 3 "" H 7460 4650 50  0001 C CNN
+	1    7460 4650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7410 4570 7410 4620
-Wire Wire Line
-	7120 4570 7410 4570
+	7460 4600 7460 4650
 Text GLabel 3530 4570 0    50   Input ~ 0
 Enc_1_PWM
 Wire Wire Line
@@ -197,14 +195,14 @@ Text GLabel 3530 4870 0    50   Input ~ 0
 Enc_4_PWM
 Wire Wire Line
 	3600 4870 3530 4870
-Text GLabel 6150 4570 0    50   Input ~ 0
+Text GLabel 6250 4570 0    50   Input ~ 0
 Enc_5_PWM
 Wire Wire Line
-	6220 4570 6150 4570
-Text GLabel 6150 4670 0    50   Input ~ 0
+	6320 4570 6250 4570
+Text GLabel 6250 4670 0    50   Input ~ 0
 Enc_6_PWM
 Wire Wire Line
-	6220 4670 6150 4670
+	6320 4670 6250 4670
 Text GLabel 7170 3340 2    50   Input ~ 0
 LS_2
 Wire Wire Line
@@ -221,14 +219,14 @@ Text GLabel 3540 3350 0    50   Input ~ 0
 LS_4
 Wire Wire Line
 	3610 3350 3540 3350
-Text GLabel 6150 5170 0    50   Input ~ 0
+Text GLabel 6250 5170 0    50   Input ~ 0
 Laser_Control
 Wire Wire Line
-	6220 5170 6150 5170
-Text GLabel 6150 5270 0    50   Input ~ 0
+	6320 5170 6250 5170
+Text GLabel 6250 5270 0    50   Input ~ 0
 Solenoid_Actuation
 Wire Wire Line
-	6220 5270 6150 5270
+	6320 5270 6250 5270
 Text GLabel 3540 2650 0    50   Input ~ 0
 Rx_1_Tiva
 Wire Wire Line
@@ -317,22 +315,36 @@ NoConn ~ 4500 4670
 NoConn ~ 4500 4770
 NoConn ~ 4500 4870
 NoConn ~ 4500 4970
-NoConn ~ 4500 5270
 NoConn ~ 4500 5370
 NoConn ~ 4500 5470
-NoConn ~ 6220 4770
-NoConn ~ 6220 4870
-NoConn ~ 6220 4970
-NoConn ~ 6220 5070
-NoConn ~ 6220 5370
-NoConn ~ 6220 5470
-NoConn ~ 7120 4670
-NoConn ~ 7120 4770
-NoConn ~ 7120 4870
-NoConn ~ 7120 4970
-NoConn ~ 7120 5070
-NoConn ~ 7120 5170
-NoConn ~ 7120 5270
-NoConn ~ 7120 5370
-NoConn ~ 7120 5470
+NoConn ~ 6320 4770
+NoConn ~ 6320 4870
+NoConn ~ 6320 4970
+NoConn ~ 6320 5070
+NoConn ~ 6320 5370
+NoConn ~ 6320 5470
+Wire Wire Line
+	7460 4600 7250 4600
+Wire Wire Line
+	7250 5300 7390 5300
+Wire Wire Line
+	7250 5400 7390 5400
+Text GLabel 7390 5300 2    50   Output ~ 0
+IN_A
+Text GLabel 7390 5400 2    50   Output ~ 0
+IN_B
+NoConn ~ 7250 4700
+NoConn ~ 7250 4800
+NoConn ~ 7250 4900
+NoConn ~ 7250 5000
+NoConn ~ 7250 5100
+NoConn ~ 7250 5200
+Wire Wire Line
+	7250 5500 7390 5500
+Text GLabel 7390 5500 2    50   Output ~ 0
+M_PWM
+Wire Wire Line
+	4500 5270 4590 5270
+Text GLabel 4590 5270 2    50   Input ~ 0
+I_SENSE
 $EndSCHEMATC
