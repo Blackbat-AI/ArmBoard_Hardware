@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -45,17 +45,6 @@ F 2 "" H 3800 5520 60  0001 C CNN
 F 3 "" H 3800 5520 60  0001 C CNN
 	3    3800 5520
 	1    0    0    -1  
-$EndComp
-$Comp
-L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
-U 4 1 5F754D60
-P 4300 5520
-F 0 "U?" H 4460 6800 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4050 6680 60  0000 C CNN
-F 2 "" H 4300 5520 60  0001 C CNN
-F 3 "" H 4300 5520 60  0001 C CNN
-	4    4300 5520
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
@@ -164,8 +153,6 @@ F 3 "" H 4790 4620 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4790 4570 4790 4620
-Wire Wire Line
-	4500 4570 4790 4570
 $Comp
 L power:GND #PWR?
 U 1 1 5F8401EF
@@ -271,14 +258,10 @@ Text GLabel 4580 3250 2    50   Input ~ 0
 Motor_3
 Wire Wire Line
 	4510 3250 4580 3250
-Text GLabel 4570 5170 2    50   Input ~ 0
+Text GLabel 4590 5270 2    50   Input ~ 0
 Motor_6
-Wire Wire Line
-	4500 5170 4570 5170
-Text GLabel 4570 5070 2    50   Input ~ 0
+Text GLabel 4570 5170 2    50   Input ~ 0
 Motor_5
-Wire Wire Line
-	4500 5070 4570 5070
 Text Notes 6590 7160 0    157  ~ 31
 Tiva Pinout
 Wire Wire Line
@@ -343,8 +326,27 @@ Wire Wire Line
 	7250 5500 7390 5500
 Text GLabel 7390 5500 2    50   Output ~ 0
 M_PWM
+Text GLabel 4590 5070 2    50   Input ~ 0
+I_SENSE
 Wire Wire Line
 	4500 5270 4590 5270
-Text GLabel 4590 5270 2    50   Input ~ 0
-I_SENSE
+Wire Wire Line
+	4500 5170 4570 5170
+Wire Wire Line
+	4500 4570 4790 4570
+$Comp
+L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
+U 4 1 5F754D60
+P 4300 5520
+F 0 "U?" H 4460 6800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4050 6680 60  0000 C CNN
+F 2 "" H 4300 5520 60  0001 C CNN
+F 3 "" H 4300 5520 60  0001 C CNN
+	4    4300 5520
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5070 4590 5070
+Text Notes 5370 2730 0    50   ~ 0
+Serial 6
 $EndSCHEMATC
