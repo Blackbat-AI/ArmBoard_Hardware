@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 9
+Sheet 3 9
 Title ""
 Date ""
 Rev ""
@@ -45,17 +45,6 @@ F 2 "" H 3800 5520 60  0001 C CNN
 F 3 "" H 3800 5520 60  0001 C CNN
 	3    3800 5520
 	1    0    0    -1  
-$EndComp
-$Comp
-L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
-U 4 1 5F754D60
-P 4300 5520
-F 0 "U?" H 4460 6800 60  0000 C CNN
-F 1 "TM4C129E_Launchpad" H 4050 6680 60  0000 C CNN
-F 2 "" H 4300 5520 60  0001 C CNN
-F 3 "" H 4300 5520 60  0001 C CNN
-	4    4300 5520
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
@@ -164,8 +153,6 @@ F 3 "" H 4790 4620 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4790 4570 4790 4620
-Wire Wire Line
-	4500 4570 4790 4570
 $Comp
 L power:GND #PWR?
 U 1 1 5F8401EF
@@ -179,22 +166,14 @@ F 3 "" H 7460 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7460 4600 7460 4650
-Text GLabel 3530 4570 0    50   Input ~ 0
+Text GLabel 3535 4970 0    50   Input ~ 0
 Enc_1_PWM
-Wire Wire Line
-	3600 4570 3530 4570
-Text GLabel 3530 4670 0    50   Input ~ 0
+Text GLabel 3535 5070 0    50   Input ~ 0
 Enc_2_PWM
-Wire Wire Line
-	3600 4670 3530 4670
-Text GLabel 3530 4770 0    50   Input ~ 0
+Text GLabel 6230 4870 0    50   Input ~ 0
 Enc_3_PWM
-Wire Wire Line
-	3600 4770 3530 4770
-Text GLabel 3530 4870 0    50   Input ~ 0
+Text GLabel 6230 4970 0    50   Input ~ 0
 Enc_4_PWM
-Wire Wire Line
-	3600 4870 3530 4870
 Text GLabel 6250 4570 0    50   Input ~ 0
 Enc_5_PWM
 Wire Wire Line
@@ -271,14 +250,10 @@ Text GLabel 4580 3250 2    50   Input ~ 0
 Motor_3
 Wire Wire Line
 	4510 3250 4580 3250
-Text GLabel 4570 5170 2    50   Input ~ 0
+Text GLabel 4590 5270 2    50   Input ~ 0
 Motor_6
-Wire Wire Line
-	4500 5170 4570 5170
-Text GLabel 4570 5070 2    50   Input ~ 0
+Text GLabel 4570 5170 2    50   Input ~ 0
 Motor_5
-Wire Wire Line
-	4500 5070 4570 5070
 Text Notes 6590 7160 0    157  ~ 31
 Tiva Pinout
 Wire Wire Line
@@ -286,7 +261,6 @@ Wire Wire Line
 NoConn ~ 3610 2550
 NoConn ~ 3610 2850
 NoConn ~ 3610 2950
-NoConn ~ 3610 3050
 NoConn ~ 3610 3150
 NoConn ~ 4510 2650
 NoConn ~ 4510 2750
@@ -305,8 +279,6 @@ NoConn ~ 7100 2640
 NoConn ~ 7100 2740
 NoConn ~ 7100 3040
 NoConn ~ 7100 3140
-NoConn ~ 3600 4970
-NoConn ~ 3600 5070
 NoConn ~ 3600 5170
 NoConn ~ 3600 5270
 NoConn ~ 3600 5370
@@ -318,8 +290,6 @@ NoConn ~ 4500 4970
 NoConn ~ 4500 5370
 NoConn ~ 4500 5470
 NoConn ~ 6320 4770
-NoConn ~ 6320 4870
-NoConn ~ 6320 4970
 NoConn ~ 6320 5070
 NoConn ~ 6320 5370
 NoConn ~ 6320 5470
@@ -343,8 +313,40 @@ Wire Wire Line
 	7250 5500 7390 5500
 Text GLabel 7390 5500 2    50   Output ~ 0
 M_PWM
+Text GLabel 4590 5070 2    50   Input ~ 0
+I_SENSE
 Wire Wire Line
 	4500 5270 4590 5270
-Text GLabel 4590 5270 2    50   Input ~ 0
-I_SENSE
+Wire Wire Line
+	4500 5170 4570 5170
+Wire Wire Line
+	4500 4570 4790 4570
+$Comp
+L Armboard-rescue:TM4C129E_Launchpad-MRDT_Shields-Armboard-rescue U?
+U 4 1 5F754D60
+P 4300 5520
+F 0 "U?" H 4460 6800 60  0000 C CNN
+F 1 "TM4C129E_Launchpad" H 4050 6680 60  0000 C CNN
+F 2 "" H 4300 5520 60  0001 C CNN
+F 3 "" H 4300 5520 60  0001 C CNN
+	4    4300 5520
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5070 4590 5070
+Text Notes 5370 2730 0    50   ~ 0
+Serial 6
+Wire Wire Line
+	3600 4970 3535 4970
+Wire Wire Line
+	3600 5070 3535 5070
+NoConn ~ 3600 4570
+NoConn ~ 3600 4670
+Wire Wire Line
+	6230 4870 6320 4870
+Wire Wire Line
+	6230 4970 6320 4970
+NoConn ~ 3600 4770
+NoConn ~ 3600 4870
+NoConn ~ 3610 3050
 $EndSCHEMATC

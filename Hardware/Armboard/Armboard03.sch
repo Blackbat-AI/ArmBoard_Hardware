@@ -166,30 +166,18 @@ F 3 "" H 7460 4650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7460 4600 7460 4650
-Text GLabel 3530 4570 0    50   Input ~ 0
+Text GLabel 3535 4970 0    50   Input ~ 0
 Enc_1_PWM
-Wire Wire Line
-	3600 4570 3530 4570
-Text GLabel 3530 4670 0    50   Input ~ 0
+Text GLabel 3535 5070 0    50   Input ~ 0
 Enc_2_PWM
-Wire Wire Line
-	3600 4670 3530 4670
-Text GLabel 3530 4770 0    50   Input ~ 0
+Text GLabel 6230 4870 0    50   Input ~ 0
 Enc_3_PWM
-Wire Wire Line
-	3600 4770 3530 4770
-Text GLabel 3530 4870 0    50   Input ~ 0
+Text GLabel 6230 4970 0    50   Input ~ 0
 Enc_4_PWM
-Wire Wire Line
-	3600 4870 3530 4870
-Text GLabel 6250 4570 0    50   Input ~ 0
+Text GLabel 6230 5070 0    50   Input ~ 0
 Enc_5_PWM
-Wire Wire Line
-	6320 4570 6250 4570
-Text GLabel 6250 4670 0    50   Input ~ 0
+Text GLabel 3545 3050 0    50   Input ~ 0
 Enc_6_PWM
-Wire Wire Line
-	6320 4670 6250 4670
 Text GLabel 7170 3340 2    50   Input ~ 0
 LS_2
 Wire Wire Line
@@ -269,7 +257,6 @@ Wire Wire Line
 NoConn ~ 3610 2550
 NoConn ~ 3610 2850
 NoConn ~ 3610 2950
-NoConn ~ 3610 3050
 NoConn ~ 3610 3150
 NoConn ~ 4510 2650
 NoConn ~ 4510 2750
@@ -288,8 +275,6 @@ NoConn ~ 7100 2640
 NoConn ~ 7100 2740
 NoConn ~ 7100 3040
 NoConn ~ 7100 3140
-NoConn ~ 3600 4970
-NoConn ~ 3600 5070
 NoConn ~ 3600 5170
 NoConn ~ 3600 5270
 NoConn ~ 3600 5370
@@ -301,9 +286,6 @@ NoConn ~ 4500 4970
 NoConn ~ 4500 5370
 NoConn ~ 4500 5470
 NoConn ~ 6320 4770
-NoConn ~ 6320 4870
-NoConn ~ 6320 4970
-NoConn ~ 6320 5070
 NoConn ~ 6320 5370
 NoConn ~ 6320 5470
 Wire Wire Line
@@ -349,4 +331,22 @@ Wire Wire Line
 	4500 5070 4590 5070
 Text Notes 5370 2730 0    50   ~ 0
 Serial 6
+Wire Wire Line
+	3600 4970 3535 4970
+Wire Wire Line
+	3600 5070 3535 5070
+NoConn ~ 3600 4570
+NoConn ~ 3600 4670
+Wire Wire Line
+	6230 4870 6320 4870
+Wire Wire Line
+	6230 4970 6320 4970
+NoConn ~ 3600 4770
+NoConn ~ 3600 4870
+Wire Wire Line
+	6320 5070 6230 5070
+NoConn ~ 6320 4570
+Wire Wire Line
+	3610 3050 3545 3050
+NoConn ~ 6320 4670
 $EndSCHEMATC

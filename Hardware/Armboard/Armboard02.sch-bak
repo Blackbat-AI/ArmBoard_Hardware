@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 9
+Sheet 9 9
 Title ""
 Date ""
 Rev ""
@@ -293,7 +293,7 @@ Wire Wire Line
 Wire Wire Line
 	4000 3400 3900 3400
 Text GLabel 3900 3400 0    50   Input ~ 0
-IN_A
+IN_B
 Text GLabel 4000 2800 0    50   Input ~ 0
 IN_A
 Text GLabel 3850 3100 0    50   Input ~ 0

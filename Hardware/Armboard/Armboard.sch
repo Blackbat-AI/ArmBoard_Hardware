@@ -208,99 +208,20 @@ Connection ~ 4115 1110
 Wire Wire Line
 	4115 1110 4295 1110
 $Comp
-L Device:R R?
-U 1 1 5F870C74
-P 4360 2765
-AR Path="/5F67ABAC/5F870C74" Ref="R?"  Part="1" 
-AR Path="/5F870C74" Ref="R?"  Part="1" 
-F 0 "R?" V 4153 2765 50  0000 C CNN
-F 1 "1.2k" V 4244 2765 50  0000 C CNN
-F 2 "" V 4290 2765 50  0001 C CNN
-F 3 "~" H 4360 2765 50  0001 C CNN
-	1    4360 2765
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:LED D?
-U 1 1 5F870C7A
-P 4740 2765
-AR Path="/5F67ABAC/5F870C7A" Ref="D?"  Part="1" 
-AR Path="/5F870C7A" Ref="D?"  Part="1" 
-F 0 "D?" H 4740 2565 50  0000 C CNN
-F 1 "LED" H 4740 2655 50  0000 C CNN
-F 2 "" H 4740 2765 50  0001 C CNN
-F 3 "~" H 4740 2765 50  0001 C CNN
-	1    4740 2765
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 5F870C80
-P 5010 2835
+P 5725 3085
 AR Path="/5F67ABAC/5F870C80" Ref="#PWR?"  Part="1" 
 AR Path="/5F870C80" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5010 2585 50  0001 C CNN
-F 1 "GND" H 5015 2662 50  0000 C CNN
-F 2 "" H 5010 2835 50  0001 C CNN
-F 3 "" H 5010 2835 50  0001 C CNN
-	1    5010 2835
+F 0 "#PWR?" H 5725 2835 50  0001 C CNN
+F 1 "GND" H 5730 2912 50  0000 C CNN
+F 2 "" H 5725 3085 50  0001 C CNN
+F 3 "" H 5725 3085 50  0001 C CNN
+	1    5725 3085
 	1    0    0    -1  
 $EndComp
-Text Notes 4640 2925 0    49   ~ 0
-Green
 Wire Wire Line
-	4510 2765 4590 2765
-Wire Wire Line
-	4890 2765 5010 2765
-Wire Wire Line
-	5010 2765 5010 2835
-Wire Wire Line
-	4210 2765 4130 2765
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 5F88B123
-P 4920 1825
-F 0 "Conn?" H 4892 1872 60  0000 R CNN
-F 1 "AndersonPP" H 4892 1978 60  0000 R CNN
-F 2 "" H 4770 1275 60  0001 C CNN
-F 3 "" H 4770 1275 60  0001 C CNN
-	3    4920 1825
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 5F88BB87
-P 4920 2050
-F 0 "Conn?" H 4892 2097 60  0000 R CNN
-F 1 "AndersonPP" H 4892 2203 60  0000 R CNN
-F 2 "" H 4770 1500 60  0001 C CNN
-F 3 "" H 4770 1500 60  0001 C CNN
-	3    4920 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L MRDT_Connectors:AndersonPP Conn?
-U 3 1 5F88C303
-P 4920 2275
-F 0 "Conn?" H 4892 2322 60  0000 R CNN
-F 1 "AndersonPP" H 4892 2428 60  0000 R CNN
-F 2 "" H 4770 1725 60  0001 C CNN
-F 3 "" H 4770 1725 60  0001 C CNN
-	3    4920 2275
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	3945 2150 4130 2150
-Connection ~ 4520 2150
-Wire Wire Line
-	4520 1925 4520 2150
-Wire Wire Line
-	4520 2150 4520 2375
-Connection ~ 4130 2150
-Wire Wire Line
-	4130 2150 4130 2765
-Wire Wire Line
-	2035 1400 2495 1400
+	2035 1400 2240 1400
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F89DF6A
@@ -377,8 +298,6 @@ F 3 "~" H 9135 1250 50  0001 C CNN
 	1    9135 1250
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	4130 2150 4520 2150
 Wire Wire Line
 	8870 1250 9035 1250
 Wire Wire Line
@@ -470,4 +389,209 @@ F3 "Gripper2" O R 8870 2300 50
 $EndSheet
 Wire Wire Line
 	8870 2300 9175 2300
+$Comp
+L power:+12VA #PWR?
+U 1 1 5F9AAE95
+P 2240 1305
+F 0 "#PWR?" H 2240 1155 50  0001 C CNN
+F 1 "+12VA" H 2255 1478 50  0000 C CNN
+F 2 "" H 2240 1305 50  0001 C CNN
+F 3 "" H 2240 1305 50  0001 C CNN
+	1    2240 1305
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2240 1305 2240 1400
+Connection ~ 2240 1400
+Wire Wire Line
+	2240 1400 2495 1400
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F9B2D0C
+P 4295 1805
+F 0 "FB?" V 4125 1805 30  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 4190 1805 30  0000 C CNN
+F 2 "" V 4225 1805 50  0001 C CNN
+F 3 "~" H 4295 1805 50  0001 C CNN
+	1    4295 1805
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4195 1805 4185 1805
+Wire Wire Line
+	4185 1805 4185 2150
+Text Notes 4555 1955 0    30   ~ 0
+Green
+Wire Wire Line
+	4505 2005 4455 2005
+$Comp
+L Device:LED D?
+U 1 1 5F9B2D04
+P 4655 2005
+F 0 "D?" H 4715 2150 30  0000 C CNN
+F 1 "LED" H 4630 2150 30  0000 C CNN
+F 2 "" H 4655 2005 50  0001 C CNN
+F 3 "~" H 4655 2005 50  0001 C CNN
+	1    4655 2005
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9B2CFE
+P 4455 1905
+F 0 "R?" V 4630 1875 50  0000 C CNN
+F 1 "1.2k" V 4555 1905 50  0000 C CNN
+F 2 "" H 4455 1905 50  0001 C CNN
+F 3 "~" H 4455 1905 50  0001 C CNN
+	1    4455 1905
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F88B123
+P 4990 1705
+F 0 "Conn?" H 4962 1752 60  0000 R CNN
+F 1 "AndersonPP" H 4962 1858 60  0000 R CNN
+F 2 "" H 4840 1155 60  0001 C CNN
+F 3 "" H 4840 1155 60  0001 C CNN
+	3    4990 1705
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4395 1805 4455 1805
+Connection ~ 4455 1805
+Wire Wire Line
+	4455 1805 4590 1805
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F9D4A50
+P 4325 2220
+F 0 "FB?" V 4175 2265 30  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 4225 2310 30  0000 C CNN
+F 2 "" V 4255 2220 50  0001 C CNN
+F 3 "~" H 4325 2220 50  0001 C CNN
+	1    4325 2220
+	0    1    1    0   
+$EndComp
+Text Notes 4585 2370 0    30   ~ 0
+Green
+Wire Wire Line
+	4535 2420 4485 2420
+$Comp
+L Device:LED D?
+U 1 1 5F9D4A58
+P 4685 2420
+F 0 "D?" H 4685 2555 30  0000 C CNN
+F 1 "LED" H 4685 2320 30  0000 C CNN
+F 2 "" H 4685 2420 50  0001 C CNN
+F 3 "~" H 4685 2420 50  0001 C CNN
+	1    4685 2420
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9D4A5E
+P 4485 2320
+F 0 "R?" V 4660 2290 30  0000 C CNN
+F 1 "1.2k" V 4585 2320 30  0000 C CNN
+F 2 "" H 4485 2320 50  0001 C CNN
+F 3 "~" H 4485 2320 50  0001 C CNN
+	1    4485 2320
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F9D4A64
+P 5020 2120
+F 0 "Conn?" H 4992 2167 60  0000 R CNN
+F 1 "AndersonPP" H 4992 2273 60  0000 R CNN
+F 2 "" H 4870 1570 60  0001 C CNN
+F 3 "" H 4870 1570 60  0001 C CNN
+	3    5020 2120
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4425 2220 4485 2220
+Connection ~ 4485 2220
+Wire Wire Line
+	4485 2220 4620 2220
+Wire Wire Line
+	4185 2150 4185 2220
+Wire Wire Line
+	4185 2220 4225 2220
+Connection ~ 4185 2150
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5F9E1878
+P 4325 2680
+F 0 "FB?" V 4175 2725 30  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 4225 2770 30  0000 C CNN
+F 2 "" V 4255 2680 50  0001 C CNN
+F 3 "~" H 4325 2680 50  0001 C CNN
+	1    4325 2680
+	0    1    1    0   
+$EndComp
+Text Notes 4585 2830 0    30   ~ 0
+Green
+Wire Wire Line
+	4535 2880 4485 2880
+$Comp
+L Device:LED D?
+U 1 1 5F9E1880
+P 4685 2880
+F 0 "D?" H 4685 3015 30  0000 C CNN
+F 1 "LED" H 4685 2780 30  0000 C CNN
+F 2 "" H 4685 2880 50  0001 C CNN
+F 3 "~" H 4685 2880 50  0001 C CNN
+	1    4685 2880
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9E1886
+P 4485 2780
+F 0 "R?" V 4660 2750 30  0000 C CNN
+F 1 "1.2k" V 4585 2780 30  0000 C CNN
+F 2 "" H 4485 2780 50  0001 C CNN
+F 3 "~" H 4485 2780 50  0001 C CNN
+	1    4485 2780
+	-1   0    0    -1  
+$EndComp
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 3 1 5F9E188C
+P 5020 2580
+F 0 "Conn?" H 4992 2627 60  0000 R CNN
+F 1 "AndersonPP" H 4992 2733 60  0000 R CNN
+F 2 "" H 4870 2030 60  0001 C CNN
+F 3 "" H 4870 2030 60  0001 C CNN
+	3    5020 2580
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4425 2680 4485 2680
+Connection ~ 4485 2680
+Wire Wire Line
+	4485 2680 4620 2680
+Wire Wire Line
+	4185 2220 4185 2680
+Wire Wire Line
+	4185 2680 4225 2680
+Connection ~ 4185 2220
+Wire Wire Line
+	3945 2150 4185 2150
+Wire Wire Line
+	4805 2005 5725 2005
+Wire Wire Line
+	5725 2005 5725 2420
+Wire Wire Line
+	4835 2420 5725 2420
+Connection ~ 5725 2420
+Wire Wire Line
+	5725 2420 5725 2880
+Wire Wire Line
+	4835 2880 5725 2880
+Connection ~ 5725 2880
+Wire Wire Line
+	5725 2880 5725 3085
 $EndSCHEMATC
