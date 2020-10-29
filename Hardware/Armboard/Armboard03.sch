@@ -267,9 +267,6 @@ NoConn ~ 6200 2540
 NoConn ~ 6200 2840
 NoConn ~ 6200 2940
 NoConn ~ 6200 3040
-NoConn ~ 6200 3140
-NoConn ~ 6200 3240
-NoConn ~ 6200 3340
 NoConn ~ 7100 2440
 NoConn ~ 7100 2640
 NoConn ~ 7100 2740
@@ -349,4 +346,20 @@ NoConn ~ 6320 4570
 Wire Wire Line
 	3610 3050 3545 3050
 NoConn ~ 6320 4670
+Text Notes 2760 2735 0    50   ~ 0
+Serial 7
+Text Notes 7660 2925 0    50   ~ 0
+Serial 4
+Text GLabel 6120 3140 0    50   Input ~ 0
+Software_1
+Wire Wire Line
+	6120 3140 6200 3140
+Text GLabel 6120 3240 0    50   Input ~ 0
+Software_2
+Wire Wire Line
+	6120 3240 6200 3240
+Text GLabel 6120 3340 0    50   Input ~ 0
+Software_3
+Wire Wire Line
+	6120 3340 6200 3340
 $EndSCHEMATC

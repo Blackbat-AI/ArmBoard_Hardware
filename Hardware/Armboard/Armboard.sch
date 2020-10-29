@@ -70,7 +70,7 @@ $EndSheet
 $Sheet
 S 760  5780 1710 1890
 U 5F738596
-F0 "Encoders" 50
+F0 "Encoders and Software" 50
 F1 "Armboard04.sch" 50
 $EndSheet
 $Sheet

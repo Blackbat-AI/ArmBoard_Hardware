@@ -174,14 +174,10 @@ Text GLabel 6230 4870 0    50   Input ~ 0
 Enc_3_PWM
 Text GLabel 6230 4970 0    50   Input ~ 0
 Enc_4_PWM
-Text GLabel 6250 4570 0    50   Input ~ 0
+Text GLabel 6230 5070 0    50   Input ~ 0
 Enc_5_PWM
-Wire Wire Line
-	6320 4570 6250 4570
-Text GLabel 6250 4670 0    50   Input ~ 0
+Text GLabel 3545 3050 0    50   Input ~ 0
 Enc_6_PWM
-Wire Wire Line
-	6320 4670 6250 4670
 Text GLabel 7170 3340 2    50   Input ~ 0
 LS_2
 Wire Wire Line
@@ -290,7 +286,6 @@ NoConn ~ 4500 4970
 NoConn ~ 4500 5370
 NoConn ~ 4500 5470
 NoConn ~ 6320 4770
-NoConn ~ 6320 5070
 NoConn ~ 6320 5370
 NoConn ~ 6320 5470
 Wire Wire Line
@@ -348,5 +343,10 @@ Wire Wire Line
 	6230 4970 6320 4970
 NoConn ~ 3600 4770
 NoConn ~ 3600 4870
-NoConn ~ 3610 3050
+Wire Wire Line
+	6320 5070 6230 5070
+NoConn ~ 6320 4570
+Wire Wire Line
+	3610 3050 3545 3050
+NoConn ~ 6320 4670
 $EndSCHEMATC
