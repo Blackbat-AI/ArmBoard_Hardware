@@ -350,15 +350,15 @@ Text Notes 2760 2735 0    50   ~ 0
 Serial 7
 Text Notes 7660 2925 0    50   ~ 0
 Serial 4
-Text GLabel 6120 3140 0    50   Input ~ 0
+Text GLabel 6120 3140 0    50   Output ~ 0
 Software_1
 Wire Wire Line
 	6120 3140 6200 3140
-Text GLabel 6120 3240 0    50   Input ~ 0
+Text GLabel 6120 3240 0    50   Output ~ 0
 Software_2
 Wire Wire Line
 	6120 3240 6200 3240
-Text GLabel 6120 3340 0    50   Input ~ 0
+Text GLabel 6120 3340 0    50   Output ~ 0
 Software_3
 Wire Wire Line
 	6120 3340 6200 3340

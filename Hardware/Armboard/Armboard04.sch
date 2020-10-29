@@ -602,7 +602,7 @@ F 3 "~" H 8385 2695 50  0001 C CNN
 $EndComp
 Text Notes 8320 2850 0    50   ~ 0
 Blue
-Text GLabel 7615 2695 0    50   Output ~ 0
+Text GLabel 7615 2695 0    50   Input ~ 0
 Software_1
 Wire Wire Line
 	7615 2695 7785 2695
@@ -647,7 +647,7 @@ F 3 "~" H 8395 3675 50  0001 C CNN
 $EndComp
 Text Notes 8330 3830 0    50   ~ 0
 Blue
-Text GLabel 7625 3675 0    50   Output ~ 0
+Text GLabel 7625 3675 0    50   Input ~ 0
 Software_2
 Wire Wire Line
 	7625 3675 7795 3675
@@ -692,7 +692,7 @@ F 3 "~" H 8420 4600 50  0001 C CNN
 $EndComp
 Text Notes 8355 4755 0    50   ~ 0
 Blue
-Text GLabel 7650 4600 0    50   Output ~ 0
+Text GLabel 7650 4600 0    50   Input ~ 0
 Software_3
 Wire Wire Line
 	7650 4600 7820 4600
