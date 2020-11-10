@@ -18,9 +18,9 @@ S 2495 1040 1450 1700
 U 5F67ABAC
 F0 "Power" 50
 F1 "Power.sch" 50
-F2 "3.3VA" O R 3945 1110 50 
-F3 "12VA" O R 3945 2150 50 
-F4 "12VA" O L 2495 1400 50 
+F2 "3.3V" O R 3945 1110 50 
+F3 "12V" O R 3945 2150 50 
+F4 "12V" O L 2495 1510 50 
 $EndSheet
 $Comp
 L power:GND #PWR?
@@ -38,14 +38,14 @@ $EndComp
 $Comp
 L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue-Armboard-rescue Conn?
 U 3 1 5F742EAC
-P 1635 1500
+P 1635 1350
 AR Path="/5F742EAC" Ref="Conn?"  Part="3" 
 AR Path="/5F67ABAC/5F742EAC" Ref="Conn?"  Part="3" 
-F 0 "Conn?" H 1843 1887 60  0000 C CNN
-F 1 "AndersonPP" H 1843 1781 60  0000 C CNN
-F 2 "" H 1485 950 60  0001 C CNN
-F 3 "" H 1485 950 60  0001 C CNN
-	3    1635 1500
+F 0 "Conn?" H 1843 1737 60  0000 C CNN
+F 1 "AndersonPP" H 1843 1631 60  0000 C CNN
+F 2 "" H 1485 800 60  0001 C CNN
+F 3 "" H 1485 800 60  0001 C CNN
+	3    1635 1350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -68,19 +68,19 @@ F0 "TIVA" 50
 F1 "Armboard03.sch" 50
 $EndSheet
 $Sheet
-S 760  5780 1710 1890
+S 2545 5915 1385 1355
 U 5F738596
 F0 "Encoders and Software" 50
 F1 "Armboard04.sch" 50
 $EndSheet
 $Sheet
-S 1745 3655 1320 1335
+S 1615 3925 1320 1335
 U 5F739ECE
 F0 "Limit Switches and Buttons" 50
 F1 "Armboard07.sch" 50
 $EndSheet
 $Sheet
-S 3725 3665 1350 1315
+S 3595 3935 1350 1315
 U 5F73A06A
 F0 "Serial Pins" 50
 F1 "Armboard08.sch" 50
@@ -209,7 +209,7 @@ F 3 "" H 5725 3085 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2035 1400 2240 1400
+	2035 1250 2240 1250
 $Comp
 L MRDT_Connectors:AndersonPP Conn?
 U 1 1 5F89DF6A
@@ -380,19 +380,16 @@ Wire Wire Line
 $Comp
 L power:+12VA #PWR?
 U 1 1 5F9AAE95
-P 2240 1305
-F 0 "#PWR?" H 2240 1155 50  0001 C CNN
-F 1 "+12VA" H 2255 1478 50  0000 C CNN
-F 2 "" H 2240 1305 50  0001 C CNN
-F 3 "" H 2240 1305 50  0001 C CNN
-	1    2240 1305
+P 2240 1155
+F 0 "#PWR?" H 2240 1005 50  0001 C CNN
+F 1 "+12VA" H 2255 1328 50  0000 C CNN
+F 2 "" H 2240 1155 50  0001 C CNN
+F 3 "" H 2240 1155 50  0001 C CNN
+	1    2240 1155
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2240 1305 2240 1400
-Connection ~ 2240 1400
-Wire Wire Line
-	2240 1400 2495 1400
+	2240 1155 2240 1250
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5F9B2D0C
@@ -582,4 +579,17 @@ Wire Wire Line
 Connection ~ 5725 2880
 Wire Wire Line
 	5725 2880 5725 3085
+$Comp
+L MRDT_Connectors:AndersonPP Conn?
+U 2 1 5FAB26A6
+P 1635 1610
+F 0 "Conn?" H 1450 1750 60  0000 C CNN
+F 1 "AndersonPP" H 1355 1655 60  0000 C CNN
+F 2 "" H 1485 1060 60  0001 C CNN
+F 3 "" H 1485 1060 60  0001 C CNN
+	2    1635 1610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2035 1510 2495 1510
 $EndSCHEMATC

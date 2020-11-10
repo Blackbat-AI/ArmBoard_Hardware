@@ -321,9 +321,9 @@ Wire Wire Line
 Text Notes 6620 7130 0    157  ~ 31
 Power
 Text HLabel 4760 3795 1    50   Output ~ 0
-3.3VA
+3.3V
 Text HLabel 3420 3350 1    50   Output ~ 0
-12VA
+12V
 Wire Wire Line
 	3420 3350 3420 3920
 Wire Wire Line
