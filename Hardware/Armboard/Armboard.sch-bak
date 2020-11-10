@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 1 9
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -72,18 +72,6 @@ S 760  5780 1710 1890
 U 5F738596
 F0 "Encoders and Software" 50
 F1 "Armboard04.sch" 50
-$EndSheet
-$Sheet
-S 2620 5780 1620 1880
-U 5F738767
-F0 "Solenoid Actuation" 50
-F1 "Armboard05.sch" 50
-$EndSheet
-$Sheet
-S 4400 5780 1590 1880
-U 5F73890D
-F0 "Laser Control" 50
-F1 "Armboard06.sch" 50
 $EndSheet
 $Sheet
 S 1745 3655 1320 1335

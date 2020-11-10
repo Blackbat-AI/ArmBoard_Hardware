@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 3 9
+Sheet 3 7
 Title ""
 Date ""
 Rev ""
@@ -194,14 +194,6 @@ Text GLabel 3540 3350 0    50   Input ~ 0
 LS_4
 Wire Wire Line
 	3610 3350 3540 3350
-Text GLabel 6250 5170 0    50   Input ~ 0
-Laser_Control
-Wire Wire Line
-	6320 5170 6250 5170
-Text GLabel 6250 5270 0    50   Input ~ 0
-Solenoid_Actuation
-Wire Wire Line
-	6320 5270 6250 5270
 Text GLabel 3540 2650 0    50   Input ~ 0
 Rx_1_Tiva
 Wire Wire Line
@@ -362,4 +354,6 @@ Text GLabel 6120 3340 0    50   Output ~ 0
 Software_3
 Wire Wire Line
 	6120 3340 6200 3340
+NoConn ~ 6320 5170
+NoConn ~ 6320 5270
 $EndSCHEMATC
