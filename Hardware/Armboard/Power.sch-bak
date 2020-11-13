@@ -146,17 +146,6 @@ F 3 "" H 9155 4410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12VA #PWR012
-U 1 1 5F680B53
-P 6455 3860
-F 0 "#PWR012" H 6455 3710 50  0001 C CNN
-F 1 "+12VA" H 6470 4033 50  0000 C CNN
-F 2 "" H 6455 3860 50  0001 C CNN
-F 3 "" H 6455 3860 50  0001 C CNN
-	1    6455 3860
-	1    0    0    -1  
-$EndComp
-$Comp
 L Armboard-rescue:LM2576D2TR4-MRDT_Devices-Armboard-rescue U1
 U 1 1 5F74DE4A
 P 2670 4320
@@ -333,4 +322,6 @@ Wire Wire Line
 Connection ~ 4760 4270
 Wire Wire Line
 	4760 4270 5120 4270
+Text HLabel 6455 3860 1    50   Input ~ 0
+12VA
 $EndSCHEMATC
