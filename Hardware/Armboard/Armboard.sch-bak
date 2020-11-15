@@ -39,15 +39,15 @@ F 3 "" H 2290 2510 50  0001 C CNN
 $EndComp
 $Comp
 L Armboard-rescue:AndersonPP-MRDT_Connectors-Armboard-rescue-Armboard-rescue-Armboard-rescue Conn1
-U 2 1 5F742EAC
+U 3 1 5F742EAC
 P 1635 1350
-AR Path="/5F742EAC" Ref="Conn1"  Part="2" 
+AR Path="/5F742EAC" Ref="Conn1"  Part="3" 
 AR Path="/5F67ABAC/5F742EAC" Ref="Conn?"  Part="3" 
 F 0 "Conn1" H 1843 1737 60  0000 C CNN
 F 1 "AndersonPP" H 1843 1631 60  0000 C CNN
 F 2 "MRDT_Connectors:Anderson_3_Horizontal_Side_by_Side" H 1485 800 60  0001 C CNN
 F 3 "" H 1485 800 60  0001 C CNN
-	2    1635 1350
+	3    1635 1350
 	1    0    0    -1  
 $EndComp
 $Comp
