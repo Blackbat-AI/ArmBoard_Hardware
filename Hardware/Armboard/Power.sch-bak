@@ -209,7 +209,6 @@ F 3 "~" H 2520 6690 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2170 6690 2370 6690
-Connection ~ 2170 6690
 $Comp
 L power:GND #PWR010
 U 1 1 5F75423C
@@ -309,21 +308,86 @@ Wire Wire Line
 	2320 7040 2520 7040
 Text Notes 6620 7130 0    157  ~ 31
 Power
-Text HLabel 3510 6565 1    50   Output ~ 0
+Text HLabel 4100 3450 1    50   Output ~ 0
 3.3V
-Text HLabel 2170 6120 1    50   Output ~ 0
+Text HLabel 3000 3450 1    50   Output ~ 0
 12V
-Wire Wire Line
-	2170 6120 2170 6690
-Wire Wire Line
-	3120 7040 3510 7040
-Wire Wire Line
-	3510 6565 3510 7040
-Connection ~ 3510 7040
-Wire Wire Line
-	3510 7040 3870 7040
 Text HLabel 6455 3860 1    50   Input ~ 0
 12VA
-Text Notes 3655 2905 2    98   ~ 20
+Text Notes 3705 3155 2    98   ~ 20
 OKI
+$Comp
+L MRDT_Devices:OKI U?
+U 1 1 5FB74CE4
+P 3350 3850
+F 0 "U?" H 3400 3800 60  0001 C CNN
+F 1 "OKI" H 3550 4131 60  0000 C CNN
+F 2 "" H 3150 3750 60  0001 C CNN
+F 3 "" H 3150 3750 60  0001 C CNN
+	1    3350 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB77225
+P 3000 4050
+F 0 "C?" H 3115 4096 50  0000 L CNN
+F 1 "10uF" H 3115 4005 50  0000 L CNN
+F 2 "" H 3038 3900 50  0001 C CNN
+F 3 "~" H 3000 4050 50  0001 C CNN
+	1    3000 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5FB780BA
+P 4100 4050
+F 0 "C?" H 4215 4096 50  0000 L CNN
+F 1 "10uF" H 4215 4005 50  0000 L CNN
+F 2 "" H 4138 3900 50  0001 C CNN
+F 3 "~" H 4100 4050 50  0001 C CNN
+	1    4100 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FB785A8
+P 4100 4500
+F 0 "#PWR?" H 4100 4250 50  0001 C CNN
+F 1 "GND" H 4105 4327 50  0000 C CNN
+F 2 "" H 4100 4500 50  0001 C CNN
+F 3 "" H 4100 4500 50  0001 C CNN
+	1    4100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4200 3000 4300
+Wire Wire Line
+	3000 4300 3550 4300
+Wire Wire Line
+	4100 4300 4100 4200
+Connection ~ 4100 4300
+Wire Wire Line
+	4100 4300 4100 4500
+Wire Wire Line
+	3000 3900 3000 3750
+Wire Wire Line
+	3000 3750 3150 3750
+Wire Wire Line
+	3550 4050 3550 4300
+Connection ~ 3550 4300
+Wire Wire Line
+	3550 4300 4100 4300
+Wire Wire Line
+	4100 3750 4100 3900
+Wire Wire Line
+	3950 3750 4100 3750
+Wire Wire Line
+	3120 7040 3870 7040
+Wire Wire Line
+	3000 3750 3000 3450
+Connection ~ 3000 3750
+Wire Wire Line
+	4100 3750 4100 3450
+Connection ~ 4100 3750
 $EndSCHEMATC
