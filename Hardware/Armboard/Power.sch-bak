@@ -146,166 +146,18 @@ F 3 "" H 9155 4410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:LM2576D2TR4-MRDT_Devices-Armboard-rescue U1
-U 1 1 5F74DE4A
-P 1420 7090
-F 0 "U1" H 1420 7515 50  0000 C CNN
-F 1 "LM2576D2TR4" H 1420 7424 50  0000 C CNN
-F 2 "MRDT_Devices:LM2576" H 1420 7540 50  0001 C CNN
-F 3 "https://www.mouser.com/datasheet/2/308/LM2576_D-1810688.pdf" H 1420 7540 50  0001 C CNN
-	1    1420 7090
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR08
-U 1 1 5F74E2A1
-P 770 7390
-F 0 "#PWR08" H 770 7140 50  0001 C CNN
-F 1 "GND" H 775 7217 50  0000 C CNN
-F 2 "" H 770 7390 50  0001 C CNN
-F 3 "" H 770 7390 50  0001 C CNN
-	1    770  7390
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	920  6890 770  6890
-Wire Wire Line
-	920  7040 770  7040
-Wire Wire Line
-	770  6890 770  7040
-Connection ~ 770  7040
-Wire Wire Line
-	920  7190 770  7190
-Wire Wire Line
-	770  7040 770  7190
-Connection ~ 770  7190
-Wire Wire Line
-	770  7190 770  7390
-Wire Wire Line
-	1920 6890 2170 6890
-Wire Wire Line
-	2170 6890 2170 6690
-$Comp
-L Device:C C8
-U 1 1 5F750C41
-P 3120 7240
-F 0 "C8" H 3235 7286 50  0000 L CNN
-F 1 "1000uF" H 3235 7195 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3158 7090 50  0001 C CNN
-F 3 "~" H 3120 7240 50  0001 C CNN
-	1    3120 7240
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C7
-U 1 1 5F75145E
-P 2520 6690
-F 0 "C7" V 2770 6640 50  0000 L CNN
-F 1 "100uF" V 2670 6590 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2558 6540 50  0001 C CNN
-F 3 "~" H 2520 6690 50  0001 C CNN
-	1    2520 6690
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2170 6690 2370 6690
-$Comp
-L power:GND #PWR010
-U 1 1 5F75423C
-P 2870 6690
-F 0 "#PWR010" H 2870 6440 50  0001 C CNN
-F 1 "GND" H 2875 6517 50  0000 C CNN
-F 2 "" H 2870 6690 50  0001 C CNN
-F 3 "" H 2870 6690 50  0001 C CNN
-	1    2870 6690
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2670 6690 2870 6690
-$Comp
-L Device:L L1
-U 1 1 5F755388
-P 2670 7040
-F 0 "L1" V 2489 7040 50  0000 C CNN
-F 1 "100uH" V 2580 7040 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2670 7040 50  0001 C CNN
-F 3 "~" H 2670 7040 50  0001 C CNN
-	1    2670 7040
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR09
-U 1 1 5F75782E
-P 2320 7440
-F 0 "#PWR09" H 2320 7190 50  0001 C CNN
-F 1 "GND" H 2325 7267 50  0000 C CNN
-F 2 "" H 2320 7440 50  0001 C CNN
-F 3 "" H 2320 7440 50  0001 C CNN
-	1    2320 7440
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2320 7340 2320 7440
-Wire Wire Line
-	2820 7040 2970 7040
-Wire Wire Line
-	3120 7040 3120 7090
-Wire Wire Line
-	1920 7190 1920 7740
-Wire Wire Line
-	1920 7740 2970 7740
-Wire Wire Line
-	2970 7740 2970 7040
-Connection ~ 2970 7040
-Wire Wire Line
-	2970 7040 3120 7040
-$Comp
-L power:GND #PWR011
-U 1 1 5F75A24F
-P 3120 7440
-F 0 "#PWR011" H 3120 7190 50  0001 C CNN
-F 1 "GND" H 3125 7267 50  0000 C CNN
-F 2 "" H 3120 7440 50  0001 C CNN
-F 3 "" H 3120 7440 50  0001 C CNN
-	1    3120 7440
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3120 7440 3120 7390
-$Comp
 L Armboard-rescue:Test_Point-MRDT_Connectors-Armboard-rescue J1
 U 1 1 5F75C39D
-P 3870 7140
-F 0 "J1" H 3792 7179 60  0000 R CNN
-F 1 "Test_Point" H 3792 7285 60  0000 R CNN
-F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 3870 7090 60  0001 C CNN
-F 3 "" H 3870 7090 60  0001 C CNN
-	1    3870 7140
-	-1   0    0    1   
+P 4350 3750
+F 0 "J1" V 4250 4100 60  0000 R CNN
+F 1 "Test_Point" V 4350 4450 60  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D2.5mm" H 4350 3700 60  0001 C CNN
+F 3 "" H 4350 3700 60  0001 C CNN
+	1    4350 3750
+	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3870 7040 3870 7140
-Connection ~ 3120 7040
-Text Notes 3230 5695 2    98   ~ 20
-Buckman Converter
 Text Notes 8375 3630 2    98   ~ 20
 Capacitor Train
-$Comp
-L Device:D_Schottky D8
-U 1 1 5F83C9A2
-P 2320 7190
-F 0 "D8" V 2366 7110 50  0000 R CNN
-F 1 "D_Schottky" V 2275 7110 50  0000 R CNN
-F 2 "Diode_THT:D_DO-201AD_P15.24mm_Horizontal" H 2320 7190 50  0001 C CNN
-F 3 "~" H 2320 7190 50  0001 C CNN
-	1    2320 7190
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	1920 7040 2320 7040
-Connection ~ 2320 7040
-Wire Wire Line
-	2320 7040 2520 7040
 Text Notes 6620 7130 0    157  ~ 31
 Power
 Text HLabel 4100 3450 1    50   Output ~ 0
@@ -383,11 +235,11 @@ Wire Wire Line
 Wire Wire Line
 	3950 3750 4100 3750
 Wire Wire Line
-	3120 7040 3870 7040
-Wire Wire Line
 	3000 3750 3000 3450
 Connection ~ 3000 3750
 Wire Wire Line
 	4100 3750 4100 3450
 Connection ~ 4100 3750
+Wire Wire Line
+	4100 3750 4350 3750
 $EndSCHEMATC
