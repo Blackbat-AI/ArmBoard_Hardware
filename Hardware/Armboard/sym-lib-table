@@ -1,3 +1,2 @@
 (sym_lib_table
-  (lib (name Armboard-rescue)(type Legacy)(uri ${KIPRJMOD}/Armboard-rescue.lib)(options "")(descr ""))
 )

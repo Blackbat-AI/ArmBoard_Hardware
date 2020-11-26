@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Armboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -19,7 +20,7 @@ U 1 1 5F67AED3
 P 6605 4110
 F 0 ".1uF1" H 6720 4156 50  0000 L CNN
 F 1 "C1" H 6720 4065 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6643 3960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 6643 3960 50  0001 C CNN
 F 3 "~" H 6605 4110 50  0001 C CNN
 	1    6605 4110
 	1    0    0    -1  
@@ -30,7 +31,7 @@ U 1 1 5F67B379
 P 7005 4110
 F 0 "10uF1" H 7120 4156 50  0000 L CNN
 F 1 "C2" H 7120 4065 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7043 3960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7043 3960 50  0001 C CNN
 F 3 "~" H 7005 4110 50  0001 C CNN
 	1    7005 4110
 	1    0    0    -1  
@@ -41,7 +42,7 @@ U 1 1 5F67B840
 P 7405 4110
 F 0 "10uF2" H 7520 4156 50  0000 L CNN
 F 1 "C3" H 7520 4065 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7443 3960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7443 3960 50  0001 C CNN
 F 3 "~" H 7405 4110 50  0001 C CNN
 	1    7405 4110
 	1    0    0    -1  
@@ -52,7 +53,7 @@ U 1 1 5F67BE7A
 P 7805 4110
 F 0 "10uF3" H 7920 4156 50  0000 L CNN
 F 1 "C4" H 7920 4065 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7843 3960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 7843 3960 50  0001 C CNN
 F 3 "~" H 7805 4110 50  0001 C CNN
 	1    7805 4110
 	1    0    0    -1  
@@ -63,31 +64,9 @@ U 1 1 5F67C26D
 P 8205 4110
 F 0 "10uF4" H 8320 4156 50  0000 L CNN
 F 1 "C5" H 8320 4065 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8243 3960 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 8243 3960 50  0001 C CNN
 F 3 "~" H 8205 4110 50  0001 C CNN
 	1    8205 4110
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 47uF1
-U 1 1 5F67C954
-P 8605 4110
-F 0 "47uF1" H 8720 4156 50  0000 L CNN
-F 1 "CP1" H 8720 4065 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8605 4110 50  0001 C CNN
-F 3 "~" H 8605 4110 50  0001 C CNN
-	1    8605 4110
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1 47uF2
-U 1 1 5F67D4A0
-P 9005 4110
-F 0 "47uF2" H 9120 4156 50  0000 L CNN
-F 1 "CP2" H 9120 4065 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9005 4110 50  0001 C CNN
-F 3 "~" H 9005 4110 50  0001 C CNN
-	1    9005 4110
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -146,9 +125,11 @@ F 3 "" H 9155 4410 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Armboard-rescue:Test_Point-MRDT_Connectors-Armboard-rescue J1
+L MRDT_Connectors:Test_Point J1
 U 1 1 5F75C39D
 P 4350 3750
+AR Path="/5F75C39D" Ref="J1"  Part="1" 
+AR Path="/5F67ABAC/5F75C39D" Ref="J1"  Part="1" 
 F 0 "J1" V 4250 4100 60  0000 R CNN
 F 1 "Test_Point" V 4350 4450 60  0000 R CNN
 F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4350 3700 60  0001 C CNN
@@ -185,7 +166,7 @@ U 1 1 5FB77225
 P 3000 4050
 F 0 "C2" H 3115 4096 50  0000 L CNN
 F 1 "10uF" H 3115 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3038 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 3038 3900 50  0001 C CNN
 F 3 "~" H 3000 4050 50  0001 C CNN
 	1    3000 4050
 	1    0    0    -1  
@@ -196,7 +177,7 @@ U 1 1 5FB780BA
 P 4100 4050
 F 0 "C3" H 4215 4096 50  0000 L CNN
 F 1 "10uF" H 4215 4005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4138 3900 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" H 4138 3900 50  0001 C CNN
 F 3 "~" H 4100 4050 50  0001 C CNN
 	1    4100 4050
 	1    0    0    -1  
@@ -242,4 +223,30 @@ Wire Wire Line
 Connection ~ 4100 3750
 Wire Wire Line
 	4100 3750 4350 3750
+$Comp
+L Device:C_Polarized_US 47uF2
+U 1 1 5F67D4A0
+P 9005 4110
+AR Path="/5F67D4A0" Ref="47uF2"  Part="1" 
+AR Path="/5F67ABAC/5F67D4A0" Ref="47uF2"  Part="1" 
+F 0 "47uF2" H 9120 4156 50  0000 L CNN
+F 1 "CP2" H 9120 4065 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 9005 4110 50  0001 C CNN
+F 3 "~" H 9005 4110 50  0001 C CNN
+	1    9005 4110
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Polarized_US 47uF1
+U 1 1 5F67C954
+P 8605 4110
+AR Path="/5F67C954" Ref="47uF1"  Part="1" 
+AR Path="/5F67ABAC/5F67C954" Ref="47uF1"  Part="1" 
+F 0 "47uF1" H 8720 4156 50  0000 L CNN
+F 1 "CP1" H 8720 4065 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" H 8605 4110 50  0001 C CNN
+F 3 "~" H 8605 4110 50  0001 C CNN
+	1    8605 4110
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

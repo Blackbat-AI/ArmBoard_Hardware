@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Armboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
@@ -14,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn9
+L MRDT_Connectors:Molex_SL_03 Conn9
 U 1 1 5F78F4A7
 P 2565 3920
 F 0 "Conn9" H 2693 4128 60  0000 L CNN
@@ -42,7 +43,7 @@ Wire Wire Line
 Text Notes 2545 3510 0    59   ~ 0
 Enc_2
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn10
+L MRDT_Connectors:Molex_SL_03 Conn10
 U 1 1 5F78F9EB
 P 2605 5730
 F 0 "Conn10" H 2733 5938 60  0000 L CNN
@@ -70,7 +71,7 @@ Wire Wire Line
 Text Notes 2585 5320 0    59   ~ 0
 Enc_3
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn11
+L MRDT_Connectors:Molex_SL_03 Conn11
 U 1 1 5F793695
 P 4895 2120
 F 0 "Conn11" H 5023 2328 60  0000 L CNN
@@ -98,7 +99,7 @@ Wire Wire Line
 Text Notes 4875 1710 0    59   ~ 0
 Enc_4
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn12
+L MRDT_Connectors:Molex_SL_03 Conn12
 U 1 1 5F7936AB
 P 4945 3960
 F 0 "Conn12" H 5073 4168 60  0000 L CNN
@@ -126,7 +127,7 @@ Wire Wire Line
 Text Notes 4925 3550 0    59   ~ 0
 Enc_5
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn13
+L MRDT_Connectors:Molex_SL_03 Conn13
 U 1 1 5F7936C1
 P 4965 5770
 F 0 "Conn13" H 5093 5978 60  0000 L CNN
@@ -156,7 +157,7 @@ Enc_6
 Text Notes 6500 7150 0    157  ~ 31
 Encoders and Software
 $Comp
-L Armboard-rescue:Molex_SL_03-MRDT_Connectors-Armboard-rescue Conn8
+L MRDT_Connectors:Molex_SL_03 Conn8
 U 1 1 5F845537
 P 2535 2100
 F 0 "Conn8" H 2663 2308 60  0000 L CNN
@@ -202,7 +203,7 @@ U 1 1 5F8484A6
 P 2195 2270
 F 0 "R15" H 2265 2316 50  0000 L CNN
 F 1 "330" H 2265 2225 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2125 2270 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2125 2270 50  0001 C CNN
 F 3 "~" H 2195 2270 50  0001 C CNN
 	1    2195 2270
 	1    0    0    -1  
@@ -213,7 +214,7 @@ U 1 1 5F8488CF
 P 2195 2650
 F 0 "D9" V 2234 2532 50  0000 R CNN
 F 1 "LED" V 2143 2532 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2195 2650 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2195 2650 50  0001 C CNN
 F 3 "~" H 2195 2650 50  0001 C CNN
 	1    2195 2650
 	0    -1   -1   0   
@@ -248,7 +249,7 @@ U 1 1 5F84C9E3
 P 2225 4090
 F 0 "R16" H 2295 4136 50  0000 L CNN
 F 1 "330" H 2295 4045 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2155 4090 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2155 4090 50  0001 C CNN
 F 3 "~" H 2225 4090 50  0001 C CNN
 	1    2225 4090
 	1    0    0    -1  
@@ -259,7 +260,7 @@ U 1 1 5F84C9E9
 P 2225 4470
 F 0 "D10" V 2264 4352 50  0000 R CNN
 F 1 "LED" V 2173 4352 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2225 4470 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2225 4470 50  0001 C CNN
 F 3 "~" H 2225 4470 50  0001 C CNN
 	1    2225 4470
 	0    -1   -1   0   
@@ -296,7 +297,7 @@ U 1 1 5F8509C6
 P 2265 5900
 F 0 "R17" H 2335 5946 50  0000 L CNN
 F 1 "330" H 2335 5855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 2195 5900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 2195 5900 50  0001 C CNN
 F 3 "~" H 2265 5900 50  0001 C CNN
 	1    2265 5900
 	1    0    0    -1  
@@ -307,7 +308,7 @@ U 1 1 5F8509CC
 P 2265 6280
 F 0 "D11" V 2304 6162 50  0000 R CNN
 F 1 "LED" V 2213 6162 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2265 6280 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2265 6280 50  0001 C CNN
 F 3 "~" H 2265 6280 50  0001 C CNN
 	1    2265 6280
 	0    -1   -1   0   
@@ -344,7 +345,7 @@ U 1 1 5F85585A
 P 4555 2290
 F 0 "R18" H 4625 2336 50  0000 L CNN
 F 1 "330" H 4625 2245 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4485 2290 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4485 2290 50  0001 C CNN
 F 3 "~" H 4555 2290 50  0001 C CNN
 	1    4555 2290
 	1    0    0    -1  
@@ -355,7 +356,7 @@ U 1 1 5F855860
 P 4555 2670
 F 0 "D12" V 4594 2552 50  0000 R CNN
 F 1 "LED" V 4503 2552 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4555 2670 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4555 2670 50  0001 C CNN
 F 3 "~" H 4555 2670 50  0001 C CNN
 	1    4555 2670
 	0    -1   -1   0   
@@ -392,7 +393,7 @@ U 1 1 5F8564DC
 P 4605 4130
 F 0 "R19" H 4675 4176 50  0000 L CNN
 F 1 "330" H 4675 4085 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4535 4130 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4535 4130 50  0001 C CNN
 F 3 "~" H 4605 4130 50  0001 C CNN
 	1    4605 4130
 	1    0    0    -1  
@@ -403,7 +404,7 @@ U 1 1 5F8564E2
 P 4605 4510
 F 0 "D13" V 4644 4392 50  0000 R CNN
 F 1 "LED" V 4553 4392 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4605 4510 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4605 4510 50  0001 C CNN
 F 3 "~" H 4605 4510 50  0001 C CNN
 	1    4605 4510
 	0    -1   -1   0   
@@ -440,7 +441,7 @@ U 1 1 5F857299
 P 4625 5940
 F 0 "R20" H 4695 5986 50  0000 L CNN
 F 1 "330" H 4695 5895 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4555 5940 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 4555 5940 50  0001 C CNN
 F 3 "~" H 4625 5940 50  0001 C CNN
 	1    4625 5940
 	1    0    0    -1  
@@ -451,7 +452,7 @@ U 1 1 5F85729F
 P 4625 6320
 F 0 "D14" V 4664 6202 50  0000 R CNN
 F 1 "LED" V 4573 6202 50  0000 R CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4625 6320 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4625 6320 50  0001 C CNN
 F 3 "~" H 4625 6320 50  0001 C CNN
 	1    4625 6320
 	0    -1   -1   0   
@@ -578,7 +579,7 @@ U 1 1 5F9D601E
 P 7935 2695
 F 0 "R21" V 7728 2695 50  0000 C CNN
 F 1 "330" V 7819 2695 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7865 2695 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7865 2695 50  0001 C CNN
 F 3 "~" H 7935 2695 50  0001 C CNN
 	1    7935 2695
 	0    1    1    0   
@@ -595,7 +596,7 @@ U 1 1 5F9D6028
 P 8385 2695
 F 0 "D15" H 8378 2440 50  0000 C CNN
 F 1 "LED" H 8378 2531 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8385 2695 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8385 2695 50  0001 C CNN
 F 3 "~" H 8385 2695 50  0001 C CNN
 	1    8385 2695
 	-1   0    0    1   
@@ -623,7 +624,7 @@ U 1 1 5F9D9D96
 P 7945 3675
 F 0 "R22" V 7738 3675 50  0000 C CNN
 F 1 "330" V 7829 3675 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7875 3675 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7875 3675 50  0001 C CNN
 F 3 "~" H 7945 3675 50  0001 C CNN
 	1    7945 3675
 	0    1    1    0   
@@ -640,7 +641,7 @@ U 1 1 5F9D9D9F
 P 8395 3675
 F 0 "D16" H 8388 3420 50  0000 C CNN
 F 1 "LED" H 8388 3511 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8395 3675 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8395 3675 50  0001 C CNN
 F 3 "~" H 8395 3675 50  0001 C CNN
 	1    8395 3675
 	-1   0    0    1   
@@ -668,7 +669,7 @@ U 1 1 5F9DB268
 P 7970 4600
 F 0 "R23" V 7763 4600 50  0000 C CNN
 F 1 "330" V 7854 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7900 4600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" V 7900 4600 50  0001 C CNN
 F 3 "~" H 7970 4600 50  0001 C CNN
 	1    7970 4600
 	0    1    1    0   
@@ -685,7 +686,7 @@ U 1 1 5F9DB271
 P 8420 4600
 F 0 "D17" H 8413 4345 50  0000 C CNN
 F 1 "LED" H 8413 4436 50  0000 C CNN
-F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8420 4600 50  0001 C CNN
+F 2 "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8420 4600 50  0001 C CNN
 F 3 "~" H 8420 4600 50  0001 C CNN
 	1    8420 4600
 	-1   0    0    1   
